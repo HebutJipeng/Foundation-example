@@ -1,0 +1,137 @@
+.top-bar,
+.top-bar .menu li {
+    background-color: #fff;
+}
+
+.logo {
+    padding: 0;
+    width: 170px;
+    height: 28px;
+    background-image: url(../img/icon_logo.png);
+    background-repeat: no-repeat;
+    transform: translateY(-4px);
+}
+
+.top-bar-grid {
+    padding: .5rem 2.75rem;
+}
+
+@media screen and (max-width: 640px) {
+    .top-bar-grid {
+        padding: .5rem;
+    }
+}
+
+.top-bar .menu>li>a {
+    padding: .6rem 1.625rem .7rem 1.625rem;
+    color: #000;
+    font-size: 12px;
+}
+
+.top-bar-left,
+.top-bar-right {
+    margin-top: 10px;
+}
+
+.top-bar-right .portrait {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon_default_user_Navbar.png);
+    background-repeat: no-repeat;
+}
+
+.top-bar-right .more {
+    width: 14px;
+    height: 8px;
+    background-image: url(../img/icon_normal_arrow_Nav.png);
+    background-repeat: no-repeat;
+}
+
+.top-bar-right .menu>li>a {
+    padding: 0 0 0 .75rem;
+}
+
+
+/********orbit**********/
+
+.orbit-grid {
+    max-width: 1440px;
+}
+
+.row-title {
+    // font-family: 'PingFangSC-Regular';
+    position: relative;
+    display: block;
+    margin: 40px 0 -8px 0;
+    color: #000;
+    font-size: 1.125rem;
+}
+
+.row-title:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+    width: 90px;
+    height: 2px;
+    background-color: #000;
+}
+
+hr {
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.talent-list .column{
+	margin-bottom: .5rem;
+}
+
+.talent {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.talent-indent {
+    display: inline-block;
+    text-indent: .8rem;
+    transform: translateY(6px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-img {
+	width: 100%;
+	height: 243px;
+}
+
+.card .column{
+	position: relative;
+}
+
+.card-tag {
+	position: absolute;
+	top: 10px;
+	left: 2rem;
+	padding: 4px 8px;
+	font-size: .75rem;
+	line-height: 12px;
+	color: #fff;
+	border-radius: 30px;
+	background-color: #FC3B26;
+}
+
+.card-title {
+	font-size: .875rem;
+	line-height: .875rem;
+	color: #000;
+	width: 100%;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-fee {
+	font-size: 12px;
+	color: #666;
+}

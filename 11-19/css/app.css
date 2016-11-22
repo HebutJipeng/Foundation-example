@@ -169,11 +169,31 @@ hr {
 }
 
 .guide-fee {
+    margin-top: 1rem;
     font-size: .875rem;
     color: #000;
     word-spacing: 24px;
 }
 
+.guide-fee span {
+    line-height: 36px;
+}
+
+.guide-name {
+    margin-left: -1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .guide-img {
     height: 36px;
+}
+
+.guide-fire-num {
+    padding: 0;
+}
+
+.guide-fire-margin {
+    margin-right: .5rem;
 }

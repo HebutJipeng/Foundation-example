@@ -243,3 +243,30 @@ hr {
     padding: 0;
     font-size: 12px;
 }
+
+.footer {
+    margin: 3rem 0 0 0;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.footer-link a {
+    margin-right: 40px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #666;
+}
+
+@media screen and (max-width: 40rem) {
+   .footer-link a {
+        margin-right: 80px;
+    } 
+    
+    .footer-link {
+        text-align: center;
+    }
+}

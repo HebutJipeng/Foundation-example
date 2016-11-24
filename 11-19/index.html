@@ -37,7 +37,7 @@
             <div class="top-bar-right">
                 <ul class="menu vertical medium-horizontal">
                     <li>
-                        <a href="#"><i class="portrait"></i></a>
+                        <a data-open="loginModal"><i class="portrait"></i></a>
                     </li>
                     <li>
                         <a href="#"><i class="more"></i></a>
@@ -47,6 +47,44 @@
         </div>
     </div>
     <!-- End Top Bar -->
+    <div class="reveal" id="loginModal" data-reveal>
+        <form data-abide novalidate>
+            <div class="row">
+                <h5 class="small-12 columns">设计癖账户登录</h2>
+            <br>
+            </div>
+            
+              <div class="row">
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label">
+                    <i class="login-logo"></i>
+                  </span>
+                  <input class="input-group-field" type="text" placeholder="手机号/邮箱/账户号" required>
+                  
+                  <div class="input-group-button">
+                    <input type="button" class="button" value="获取验证码">
+                  </div>
+                </div>
+                
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label">
+                    <i class="login-pwd"></i>
+                  </span>
+                  <input class="input-group-field" type="password" placeholder="密码/手机验证登录" required>
+                </div>
+              </div>
+              <div class="row">
+                <fieldset class="small-12 columns">
+                  <button class="button small-12 columns" type="submit" value="Submit">Submit</button>
+                </fieldset>
+                <fieldset class="small-12 columns">
+                   <span class="small-6 float-left">还没有账户？<a href="">立即注册</a></span>
+                   <a href="" class="small-6 float-right text-right">忘记密码</a>
+                </fieldset>
+              </div>
+        </form>
+    </div>
+
     <div class="orbit row orbit-grid" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
@@ -279,7 +317,8 @@
             <p class="footer-copy">版权信息Copyright shejipi 使用设计癖前必读 发的是减肥了多少级了</p>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
     $(document).foundation();

@@ -270,3 +270,21 @@ hr {
         text-align: center;
     }
 }
+
+.login-logo {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image : url(../img/icon_user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login-pwd {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/icon_password.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

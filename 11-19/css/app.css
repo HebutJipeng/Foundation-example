@@ -231,7 +231,6 @@ hr {
 // .guide-fire-margin {
 //     margin-right: .5rem;
 // }
-
 .report-name {
     margin-right: 8px;
     font-size: 12px;
@@ -262,10 +261,9 @@ hr {
 }
 
 @media screen and (max-width: 40rem) {
-   .footer-link a {
+    .footer-link a {
         margin-right: 80px;
-    } 
-    
+    }
     .footer-link {
         text-align: center;
     }
@@ -275,9 +273,40 @@ hr {
     display: block;
     width: 18px;
     height: 18px;
-    background-image : url(../img/icon_user.png);
+    background-image: url(../img/icon_user.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.login-logo-label,
+.login-pwd-label {
+    background-color: #fff;
+}
+
+.login-logo-input,
+.login-pwd-input {
+    border-left: none;
+    font-size: .8rem;
+}
+
+.login-logo-input {
+    border-right: none;
+    box-shadow: none;
+}
+
+.login-logo-button {
+    border: 1px solid #cacaca;
+    border-left: none;
+}
+
+.login-logo-btn {
+    background-color: #fff;
+    color: #148FF5;
+    font-size: .8rem;
+}
+
+.login-logo-btn:hover{
+    background-color: #fff;
 }
 
 .login-pwd {
@@ -287,4 +316,15 @@ hr {
     background-image: url(../img/icon_password.png);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.login-modal {
+    min-height: 338px;
+}
+
+.close {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url(../img/btn_pressed_close.png) no-repeat;
 }

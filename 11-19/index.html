@@ -7,6 +7,8 @@
     <title>首页</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -47,44 +49,6 @@
         </div>
     </div>
     <!-- End Top Bar -->
-    <div class="reveal" id="loginModal" data-reveal>
-        <form data-abide novalidate>
-            <div class="row">
-                <h5 class="small-12 columns">设计癖账户登录</h2>
-            <br>
-            </div>
-            
-              <div class="row">
-                <div class="input-group small-12 columns">
-                  <span class="input-group-label">
-                    <i class="login-logo"></i>
-                  </span>
-                  <input class="input-group-field" type="text" placeholder="手机号/邮箱/账户号" required>
-                  
-                  <div class="input-group-button">
-                    <input type="button" class="button" value="获取验证码">
-                  </div>
-                </div>
-                
-                <div class="input-group small-12 columns">
-                  <span class="input-group-label">
-                    <i class="login-pwd"></i>
-                  </span>
-                  <input class="input-group-field" type="password" placeholder="密码/手机验证登录" required>
-                </div>
-              </div>
-              <div class="row">
-                <fieldset class="small-12 columns">
-                  <button class="button small-12 columns" type="submit" value="Submit">Submit</button>
-                </fieldset>
-                <fieldset class="small-12 columns">
-                   <span class="small-6 float-left">还没有账户？<a href="">立即注册</a></span>
-                   <a href="" class="small-6 float-right text-right">忘记密码</a>
-                </fieldset>
-              </div>
-        </form>
-    </div>
-
     <div class="orbit row orbit-grid" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
@@ -133,8 +97,7 @@
             <span class="small-8 talent-indent">hello</span>
         </div>
     </div>
-
-    <!--热门众筹 --> 
+    <!--热门众筹 -->
     <div class="row columns">
         <h2 class="row-title medium-2">热门众筹</h2>
         <hr>
@@ -182,10 +145,9 @@
             <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
             <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
         </div>
-
-    <!--热门导购 -->    
+        <!--热门导购 -->
     </div>
-        <div class="row columns">
+    <div class="row columns">
         <h2 class="row-title medium-2">热门导购</h2>
         <hr>
     </div>
@@ -245,8 +207,7 @@
             </p>
         </div>
     </div>
-
-    <!--优质报告 --> 
+    <!--优质报告 -->
     <div class="row columns">
         <h2 class="row-title medium-2">热门众筹</h2>
         <hr>
@@ -306,8 +267,46 @@
                 <span class="small-2 columns report-fire-num float-right"><i class="watch">&nbsp;</i>217</span>
             </p>
         </div>
-    </div>    
-
+    </div>
+    <div class="reveal login-modal" id="loginModal" data-reveal>
+        <form data-abide novalidate>
+            <div class="row clearfix">
+                <i class="small-1 small-offset-11 close float-right">&nbsp;</i>
+            </div>
+            <div class="row">
+                <h5 class="small-12 columns">设计癖账户登录</h2>
+            </div>
+            
+            <div class="row">
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-logo-label">
+                    <a href=""><i class="login-logo"></i></a>
+                  </span>
+                  <input class="input-group-field login-logo-input" type="text" placeholder="手机号/邮箱/账户号" required>
+                  
+                  <div class="input-group-button login-logo-button">
+                    <input type="button" class="button login-logo-btn" value="获取验证码">
+                  </div>
+                </div>
+                
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-pwd-label">
+                    <i class="login-pwd"></i>
+                  </span>
+                  <input class="input-group-field login-pwd-input" type="password" placeholder="密码/手机验证登录" required>
+                </div>
+            </div>
+            <div class="row">
+                <fieldset class="small-12 columns">
+                  <button class="button small-12 columns" type="submit" value="Submit">Submit</button>
+                </fieldset>
+                <fieldset class="small-12 columns">
+                   <span class="small-6 float-left">还没有账户？<a href="">立即注册</a></span>
+                   <a href="" class="small-6 float-right text-right">忘记密码</a>
+                </fieldset>
+            </div>
+        </form>
+    </div>
     <div class="callout large secondary footer">
         <div class="row">
             <p class="footer-link"><a href="">关于设计癖</a>

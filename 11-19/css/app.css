@@ -269,6 +269,10 @@ hr {
     }
 }
 
+#loginModal {
+    max-width: 30rem;
+}
+
 .login-logo {
     display: block;
     width: 18px;
@@ -285,12 +289,12 @@ hr {
 
 .login-logo-input,
 .login-pwd-input {
-    border-left: none;
+    /*border-left: none;*/
     font-size: .8rem;
 }
 
 .login-logo-input {
-    border-right: none;
+    /*border-right: none;*/
     box-shadow: none;
 }
 
@@ -306,7 +310,8 @@ hr {
 }
 
 .login-logo-btn:hover{
-    background-color: #fff;
+    background-color: #148FF5;
+    border-color: #148FF5;
 }
 
 .login-pwd {
@@ -320,6 +325,8 @@ hr {
 
 .login-modal {
     min-height: 338px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .close {
@@ -327,4 +334,31 @@ hr {
     width: 15px;
     height: 15px;
     background: url(../img/btn_pressed_close.png) no-repeat;
+}
+
+.submit-btn {
+    margin-bottom: 1.8rem;
+    background-color: #FC3B26;
+}
+
+.submit-btn:hover, .submit-btn:focus {
+    background-color: #FC3B26; 
+}
+
+.login-modal h5 {
+    font-size: 14px;
+    color: #666;
+}
+
+.sign {
+    color: #666;
+    font-size: 14px;
+}
+
+.sign a {
+    color: #666;
+}
+
+.modal-title {
+    margin: 1rem 0 0;
 }

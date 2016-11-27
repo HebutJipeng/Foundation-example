@@ -1,0 +1,105 @@
+.top-bar-right .menu>li>a {
+    padding: .6rem 0rem .7rem 1.625rem;
+}
+
+.top-bar .sign-up {
+    width: auto;
+}
+
+.apply-box-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 4rem;
+}
+
+.apply-box {
+    position: relative;
+    padding: 20px;
+    max-width: 300px;
+    background-color: rgba(255,255,255,.9);
+}
+
+.apply-box h5 {
+    font-size: 1rem;
+}
+
+
+.data-left {
+    float: left;
+    margin-top: 1.5rem;
+    width: 50%;
+    overflow: hidden;
+}
+
+.data-left p {
+    font-size: 12px;
+    color: #666;
+}
+
+.data-left .try {
+    margin-bottom: 1rem;
+}
+
+.data-right {
+    float: right;
+    margin-top: 1.5rem;
+    width: 50%;
+    overflow: hidden;
+}
+
+.data-right .num {
+    margin-bottom: 0;
+    color: #FC3B26;
+    font-size: 21px;
+}
+
+.data-right .apply-num {
+    font-size: 12px;
+    color: #666;
+}
+
+.stop-data {
+    clear: both;
+    padding: 0 1rem 1rem 1rem;
+    margin-top: 2rem;
+    color: #666;
+    font-size: 12px;
+}
+
+.stop-data .stop-num {
+    padding: 0 .3rem;
+    color: #FC3B26;
+    font-size: 1rem;
+}
+
+.apply-btn {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+}
+
+.apply-btn button {
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.ap-btn1 {
+    background-color: #FC3B26;
+}
+
+.ap-btn2 {
+    background-color: #333;
+}
+
+.cus-tabs {
+    margin: 0 auto;
+    border: none;
+}
+
+.cus-tabs-content {
+    margin: 0 auto;
+    border: none;
+}
+

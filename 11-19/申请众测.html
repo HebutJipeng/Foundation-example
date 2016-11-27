@@ -10,6 +10,7 @@
     <!-- modernizr 文件 -->
     <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/shenqing.css">
 </head>
 
 <body>
@@ -27,7 +28,19 @@
                 </ul>
             </div>
         </div>
-        <div id="responsive-menu">
+        <div class="top-bar-right sign-up">
+            <ul class="menu">
+                <li>
+                    <!-- <a data-open="loginModal"><i class="portrait"></i></a> -->
+                    <a href="#">登录</a>
+                </li>
+                <li>
+                    <!-- <a href="#"><i class="more"></i></a> -->
+                    <a href="#">注册</a>
+                </li>
+            </ul>
+        </div>
+        <div id="responsive-menu" data-hide-for="medium">
             <div class="top-bar-left">
                 <ul class="menu vertical medium-horizontal">
                     <li><a href="#">设计众筹</a></li>
@@ -36,17 +49,8 @@
                     <li><a href="#">设计导购</a></li>
                 </ul>
             </div>
-            <div class="top-bar-right">
-                <ul class="menu vertical medium-horizontal">
-                    <li>
-                        <a data-open="loginModal"><i class="portrait"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="more"></i></a>
-                    </li>
-                </ul>
-            </div>
         </div>
+        
     </div>
     <!-- End Top Bar -->
 
@@ -67,8 +71,44 @@
                 <img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
             </li>
         </ul>
+        <div class="apply-box-section">
+            <div class="row">
+                <div class="small-offset-9 small-4 apply-box clearfix">
+                    <h5>网易严选 60S 纯净暖绒 AB件四面套装</h5>
+                    <div class="data-left">
+                        <p class="try">免费试用：5台</p>
+                        <p class="fee">官方报价 ￥2688</p>
+                    </div>
+                    <div class="data-right text-right">
+                        <p class="num">1111</p>
+                        <p class="apply-num">人已申请</p>
+                    </div>
+                    <div class="row stop-data">
+                        <p class="small-12">距申请截止<span class="stop-num">06</span>天<span class="stop-num">04</span>小时<span class="stop-num">25</span>分钟</p>
+                    </div>
+                    <div class="row apply-btn">
+                        <button class="small-5 columns ap-btn1">立即申请</button>
+                        <button class="small-offset-2 small-5 columns ap-btn2">立即购买</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
+    
 
+    <ul class="tabs row cus-tabs" data-tabs id="example-tabs">
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+        <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+    </ul>
+    <div class="tabs-content row cus-tabs-content" data-tabs-content="example-tabs">
+        <div class="tabs-panel is-active" id="panel1">
+            <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+        </div>
+        <div class="tabs-panel" id="panel2">
+            <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+        </div>
+    </div>
     
     <div class="row columns">
         <h2 class="row-title medium-2">众测达人榜</h2>
@@ -271,10 +311,10 @@
             </p>
         </div>
     </div>
-    <div class="small reveal login-modal radius" id="loginModal" data-reveal data-closable>
+    <div class="small reveal login-modal" id="loginModal" data-reveal>
         <form data-abide novalidate>
             <div class="row clearfix ">
-                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true" data-close>&nbsp;</i>
+                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true">&nbsp;</i>
             </div>
             <div class="row modal-title">
                 <h5 class="small-12 columns">设计癖账户登录</h2>

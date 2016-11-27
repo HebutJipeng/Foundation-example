@@ -362,3 +362,30 @@ hr {
 .modal-title {
     margin: 1rem 0 0;
 }
+
+.login-phone-label {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/icon_user.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.apply-reason {
+    font-size: 14px;
+    resize:none;
+}
+
+.apply-tips {
+    font-size: 14px;
+    color: #666;
+}
+
+.cancel-btn, .cancel-btn:focus, .cancel-btn:hover {
+    background-color: #fff;
+    border: 1px solid #666;
+    font-size: 16px;
+    color: #666;
+}
+

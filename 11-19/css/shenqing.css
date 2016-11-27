@@ -79,10 +79,11 @@
     margin-bottom: 1rem;
 }
 
-.apply-btn button {
+.apply-btn a {
     padding: 10px;
     font-size: 14px;
     color: #fff;
+    text-align: center;
 }
 
 .ap-btn1 {
@@ -103,3 +104,49 @@
     border: none;
 }
 
+.tab-hr {
+    margin-top: .75rem;
+}
+
+.cus-tabs .tabs-title>a {
+    padding: .25rem 1.5rem;
+    background-color: #fff;
+    font-size: 18px;
+    color: #666;
+}
+
+.cus-tabs .is-active>a{
+    position: relative;
+    color: #FC3B26;
+}
+
+.cus-tabs .is-active>a:after {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #FC3B26;
+}
+
+#applyModal {
+    max-height: auto;
+    max-width: 600px;
+    border-radius: 4px;
+}
+
+.modal-title h5 {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 63.9375em) {
+    .apply-box-section {
+        position: relative;
+        padding: 0;
+    }
+    .apply-box {
+       max-width: 100%;
+       z-index: 2;
+    }
+}

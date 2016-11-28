@@ -339,10 +339,12 @@ hr {
 .submit-btn {
     margin-bottom: 1.8rem;
     background-color: #FC3B26;
+    font-size: 16px;
 }
 
 .submit-btn:hover, .submit-btn:focus {
     background-color: #FC3B26; 
+
 }
 
 .login-modal h5 {

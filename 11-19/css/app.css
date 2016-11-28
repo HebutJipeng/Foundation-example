@@ -331,6 +331,7 @@ hr {
 
 .close {
     display: block;
+    margin-top: .5rem;
     width: 15px;
     height: 15px;
     background: url(../img/btn_pressed_close.png) no-repeat;

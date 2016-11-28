@@ -182,3 +182,64 @@
 .apply-aside .aside-ad img {
     height: 130px;
 }
+
+.share-icon li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 40em) {
+    .share-icon li {
+        margin-right: 0;
+    }
+}
+
+.call-list .column {
+    margin-bottom: 2rem;
+}
+
+.call-list img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.call-list span {
+    font-size: 16px;
+    color: #666;
+}
+
+#buyModal {
+    /*max-width: 30rem;*/
+    padding: 1rem 2rem;
+}
+
+.buy-modal .modal-title {
+    color: #666;
+}
+
+.buy-modal img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.buy-modal span {
+    font-size: 16px;
+    color: #666;
+    max-width: 2rem;
+    overflow: hidden;
+}
+
+.buy-modal .column {
+    margin-bottom: 2rem;
+}
+
+.buy-modal .buy-modal-contents {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.buy-modal .submit-btn {
+    margin-bottom: 0;
+}

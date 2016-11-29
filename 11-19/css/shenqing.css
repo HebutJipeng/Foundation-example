@@ -174,7 +174,7 @@
     height: 200px;
 }
 
-.apply-aside .hot-event p{
+.apply-aside .hot-event p {
     font-size: 12px;
     color: #666;
 }
@@ -242,4 +242,11 @@
 
 .buy-modal .submit-btn {
     margin-bottom: 0;
+}
+
+
+/*****rep*****/
+
+.apply-rep a {
+    margin-top: 2rem;
 }

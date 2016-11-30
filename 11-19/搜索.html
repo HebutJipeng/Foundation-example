@@ -49,6 +49,8 @@
             </div>
         </div>
     </div>
+
+    <a data-open="searchModal">fff</a>
     <!-- End Top Bar -->
     <div class="orbit row orbit-grid" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
@@ -319,11 +321,22 @@
     
 
     <!-- 搜索框 -->
-    <div class="small reveal search-bar" id="searchModal" data-reveal data-closable>
+    <div class="large reveal search-bar" id="searchModal" data-reveal data-closable>
         <div class="row">
             <div class="small-12 columns input-group">
                 <i class="input-group-label"></i>
-                <input type="text" class="input-group-field">
+                <input type="text" class="input-group-field" placeholder="搜索">
+            </div>
+            <hr>
+            <div class="small-12 columns">
+                <ul class="key-word">
+                    <li class="float-left"><a href="">1关键词</a></li>
+                    <li class="float-left"><a href="">21关键词</a></li>
+                    <li class="float-left"><a href="">31关键词</a></li>
+                    <li class="float-left"><a href="">41关键词</a></li>
+                    <li class="float-left"><a href="">51关键词</a></li>
+                    <li class="float-left"><a href="">61关键词</a></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -345,6 +358,7 @@
     <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
     <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="./js/app/orbit.js"></script>
     <script>
     $(document).foundation();
     </script>

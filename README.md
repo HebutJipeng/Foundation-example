@@ -2,9 +2,9 @@
 use Foundation first time, write a example to complete my project
 
 #jquery 使用记录
->1. form 表格序列化  form = $("form").serialize()  =>  formb = form.split("&") => formc = JSON.stringify(formb)
+1. form 表格序列化  form = $("form").serialize()  =>  formb = form.split("&") => formc = JSON.stringify(formb)
     可以优雅的对表格内的数据进行序列化，然后转化成可以使用的 json
->2. 最近，总是要做下拉到底部刷新，经历了网上的各种不靠谱之后，我还是记录下 可行的方法
+2. 最近，总是要做下拉到底部刷新，经历了网上的各种不靠谱之后，我还是记录下 可行的方法
     首先 监听窗口 滚动事件， $(window).scroll()  , 这个方法代替了之前愚蠢的用setTimeout 来检测是否到底的事件， :)
     其次，要判断网页是否到底，这个就涉及到 对于页面和文档的高度 的判断
     var totalheight parseFloat($(window).height()) + parseFloat($(window).scrollTop())  当前窗口底端，距文档顶端的距离

@@ -127,8 +127,8 @@
         </ul>
 
         <div class="small-2 columns search-box text-right">
-            <span class="search-box-show">价格筛选</span>
-            <i class="search-box-icon">ff</i>
+            <span class="search-box-show">价格筛选<i class="search-box-cancel"></i></span>
+            <i class="search-box-icon">&nbsp;</i>
             <div class="sarch-box-select text-left">
                 <ul>
                     <li><a href="">全部</a></li>
@@ -494,6 +494,7 @@
     <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
     <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="./js/app/orbit.js"></script>
     <script>
     $(document).foundation();
 
@@ -506,7 +507,7 @@
     })
 
     $(".sarch-box-select").children().find("a").click(function() {
-        $(".search-box-show").text($(this).text());
+        $(".search-box-show").text($(this).text()).css({"border-color":"#fc4e3b", "color": "#fc4e3b"});
         return false;
     })
 

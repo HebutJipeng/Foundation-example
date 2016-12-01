@@ -315,7 +315,7 @@ hr {
 }
 
 @media screen and (max-width: 40rem) {
-    .footer-link {
+    .footer-link, .footer-copy {
         text-align: center;
     }
 }

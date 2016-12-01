@@ -108,15 +108,18 @@
 }
 
 .cus-tabs .tabs-title>a {
-    padding: .25rem 1.5rem;
+    // padding: .25rem 1.5rem;
     background-color: #fff;
     font-size: 18px;
     color: #666;
+    padding: .25rem 0;
+    margin-right: 3rem;
 }
 
 .cus-tabs .is-active>a {
     position: relative;
     color: #FC3B26;
+
 }
 
 .cus-tabs .is-active>a:after {

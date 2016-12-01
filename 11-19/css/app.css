@@ -1,3 +1,5 @@
+
+/*公共样式*/
 * {
     outline: none;
 }
@@ -5,6 +7,18 @@
 body * {
     font-family: "PingFangSC-Regular", "sans-serif", "STHeitiSC-Light", "微软雅黑", "Microsoft YaHei"!important;
 }
+
+@font-face {
+    font-family: 'PingFangSC-Regular';
+    src:   url('../fonts/PingFangSC-Regular.ttf') format('truetype');
+}  
+
+body {
+    min-width: 330px;
+}
+
+/*header*/
+
 
 .top-bar,
 .top-bar .menu li {
@@ -77,7 +91,6 @@ body * {
 }
 
 .row-title {
-    // font-family: 'PingFangSC-Regular';
     position: relative;
     display: block;
     margin: 40px 0 -8px 0;
@@ -93,6 +106,13 @@ body * {
     width: 90px;
     height: 2px;
     background-color: #000;
+}
+
+.row-more {
+    margin-bottom: -1rem;
+    transform: translateY(-10px);
+    font-size: 12px;
+    color: #999;
 }
 
 hr {
@@ -112,11 +132,18 @@ hr {
 .talent-indent {
     display: inline-block;
     text-indent: .8rem;
-    transform: translateY(6px);
+    vertical-align: middle;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media screen and (max-width: 67em){
+    .talent-indent {
+        text-indent: 0;
+    } 
+}
+
 
 .card-img {
     width: 100%;

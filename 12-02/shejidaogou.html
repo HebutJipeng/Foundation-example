@@ -1,0 +1,528 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/sheji-j.css">
+</head>
+
+<body>
+    <!-- Start Top Bar -->
+    <div class="top-bar top-bar-grid">
+        <div>
+            <div class="top-bar-title">
+                <ul class="menu">
+                    <li>
+                        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                            <button class="menu-icon dark" type="button" data-toggle></button>
+                        </span>
+                    </li>
+                    <li><a href=""><i class="logo"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="top-bar-right sign-up">
+            <ul class="menu">
+                <li>
+                    <!-- <a data-open="loginModal"><i class="portrait"></i></a> -->
+                    <a href="#">登录</a>
+                </li>
+                <li>
+                    <!-- <a href="#"><i class="more"></i></a> -->
+                    <a href="#">注册</a>
+                </li>
+            </ul>
+        </div>
+        <div id="responsive-menu" data-hide-for="medium">
+            <div class="top-bar-left">
+                <ul class="menu vertical medium-horizontal">
+                    <li><a href="#">设计众筹</a></li>
+                    <li><a href="#">申请众筹</a></li>
+                    <li><a href="#">众筹报告</a></li>
+                    <li><a href="#">设计导购</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+    <div class="orbit row orbit-grid" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <ul class="orbit-container">
+            <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+            <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+            <li class="orbit-slide is-active">
+                <img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
+            </li>
+            <li class="orbit-slide">
+                <img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
+            </li>
+            <li class="orbit-slide">
+                <img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
+            </li>
+            <li class="orbit-slide">
+                <img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
+            </li>
+        </ul>
+    </div>
+
+    <div class="small reveal apply-modal" id="applyModal" data-reveal>
+        <form data-abide novalidate>
+            <div class="row clearfix ">
+                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true" data-close>&nbsp;</i>
+            </div>
+            <div class="row modal-title">
+                <h5 class="small-12 columns">提交申请</h2>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-logo-label">
+                    <a href=""><i class="login-logo"></i></a>
+                  </span>
+                  <input class="input-group-field login-logo-input" type="text" placeholder="请输入姓名" required>
+                </div>
+                
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-pwd-label">
+                    <i class="login-pwd"></i>
+                  </span>
+                  <input class="input-group-field login-pwd-input" type="password" placeholder="请输入手机号" required>
+                </div>
+
+                <div class="input-group small-12 columns">
+                    <textarea name="" id="" cols="30" rows="10" class="input-group-field apply-reason" placeholder="请认真填写申请理由，欢迎附上作品链接" required></textarea>
+                </div>
+
+
+                <p class="small-12 columns apply-tips">提示：以上信息均为必填，请确保填写的信息真实有效，否则很可能和大奖擦肩而过</p>
+                
+            </div>
+            <div class="row">
+                <fieldset class="small-12 columns">
+                   <button class="button small-5 columns submit-btn" type="submit" value="Submit">提交申请</button>
+                   <button class="button small-offset-2 small-5 columns cancel-btn" type="button" value="Cancel">取消</button>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    
+    <br class="hide-for-small-only">
+    <br class="hide-for-small-only">
+    
+    <div class="row">
+        <ul class="tabs cus-tabs hide-for-small-only small-7 columns" data-tabs id="example-tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">全部</a></li>
+            <li class="tabs-title"><a href="#panel2">新品</a></li>
+            <li class="tabs-title"><a href="#panel3">家具</a></li>
+            <li class="tabs-title"><a href="#panel4">消费电子</a></li>
+            <li class="tabs-title"><a href="#panel5">出行</a></li>
+            <li class="tabs-title"><a href="#panel6">礼物</a></li>
+        </ul>
+
+        <div class="small-5 columns search-box text-right">
+            <span class="search-box-show">价格筛选<i class="search-box-cancel"></i></span>
+            <i class="search-box-icon">&nbsp;</i>
+            <div class="sarch-box-select text-left">
+                <ul>
+                    <li><a href="">全部</a></li>
+                    <li><a href="">0-300</a></li>
+                    <li><a href="">301-1000</a></li>
+                    <li><a href="">1001-2000</a></li>
+                    <li><a href="">2001以上</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr class="tab-hr">
+    <div class="tabs-content row cus-tabs-content" data-tabs-content="example-tabs">
+        <div class="row small-up-1 medium-up-2 large-up-3 guide">
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+            <div class="column">
+                <img class="card-img" src="http://placehold.it/300x400">
+                <p class="guide-fee row">
+                    <span class="small-2 columns"><img src="./img/icon_default_user_remendaogou.png" alt="" class=" guide-img"></span>
+                    <span class="small-6 columns guide-name">某某触目家具卧室系列</span>
+                    <span class="small-2 columns guide-fire-num float-right guide-fire-margin"><i class="fire">&nbsp;</i>217</span>
+                    <span class="small-2 columns guide-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs-panel" id="panel2">
+        <!--热门众筹 -->
+        <div class="row small-up-1 medium-up-2 large-up-3 card">
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <!--热门导购 -->
+        </div>
+    </div>
+    <div class="tabs-panel" id="panel3">
+        <!--热门众筹 -->
+        <div class="row small-up-1 medium-up-2 large-up-3 card">
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <!--热门导购 -->
+        </div>
+    </div>
+    <div class="tabs-panel" id="panel4">
+        <!--热门众筹 -->
+        <div class="row small-up-1 medium-up-2 large-up-3 card">
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <!--热门导购 -->
+        </div>
+    </div>
+    <div class="tabs-panel" id="panel5">
+        <!--热门众筹 -->
+        <div class="row small-up-1 medium-up-2 large-up-3 card">
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <!--热门导购 -->
+        </div>
+    </div>
+    <div class="tabs-panel" id="panel6">
+        <!--热门众筹 -->
+        <div class="row small-up-1 medium-up-2 large-up-3 card">
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <div class="column">
+                <span class="card-tag">申请中</span>
+                <img class="card-img" src="http://placehold.it/300x400">
+                <h5 class="card-title">Nulla At Nulla Justo, Eget</h5>
+                <p class="card-fee row"><span class="small-8 columns">官方报价：￥2688 数量：5台</span><span class="small-4 columns card-fire-num"><i class="fire">&nbsp;</i>217</span></p>
+                <p class="card-call"><span class="card-call-num">111</span> 人申请</p>
+            </div>
+            <!--热门导购 -->
+        </div>
+    </div>
+    <div class="small reveal login-modal" id="loginModal" data-reveal>
+        <form data-abide novalidate>
+            <div class="row clearfix ">
+                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true">&nbsp;</i>
+            </div>
+            <div class="row modal-title">
+                <h5 class="small-12 columns">设计癖账户登录</h2>
+
+            </div>
+            <br>
+            <div class="row">
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-logo-label">
+                    <a href=""><i class="login-logo"></i></a>
+                  </span>
+                  <input class="input-group-field login-logo-input" type="text" placeholder="手机号/邮箱/账户号" required>
+                  
+                  <div class="input-group-button login-logo-button">
+                    <input type="button" class="button login-logo-btn" value="获取验证码">
+                  </div>
+                </div>
+                
+                <div class="input-group small-12 columns">
+                  <span class="input-group-label login-pwd-label">
+                    <i class="login-pwd"></i>
+                  </span>
+                  <input class="input-group-field login-pwd-input" type="password" placeholder="密码/手机验证登录" required>
+                </div>
+            </div>
+            <div class="row">
+                <fieldset class="small-12 columns">
+                  <button class="button small-12 columns submit-btn" type="submit" value="Submit">登录</button>
+                </fieldset>
+                <fieldset class="small-12 columns sign">
+                   <span class="small-6 float-left">还没有账户？<a href="">立即注册</a></span>
+                   <a href="" class="small-6 float-right text-right">忘记密码</a>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="callout large secondary footer">
+        <div class="row">
+            <div class="medium-4 columns">
+                <div class="row footer-link">
+                    <div class="large-3 columns"><a href="">关于设计癖</a></div>
+                    <div class="large-3 columns"><a href="">联系我们</a></div>
+                    <div class="large-3 columns"><a href="">加入我们</a></div>
+                    <div class="large-3 columns"><a href="">常见问题</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="small-12 columns">
+                版权信息Copyright ©2016 Shejipi 使用设计癖前必读 京ICP证030173号
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    
+    <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="./js/app/orbit.js"></script>
+    <script>
+    $(document).foundation();
+
+    $(".search-box-show").hover(function() {
+        $(".sarch-box-select").toggle();
+    })
+
+    $(".sarch-box-select").hover(function() {
+        $(this).toggle();
+    })
+
+    $(".sarch-box-select").children().find("a").click(function() {
+        $(".search-box-show").text($(this).text()).css({"border-color":"#fc4e3b", "color": "#fc4e3b"});
+        return false;
+    })
+
+    </script>
+</body>
+
+</html>

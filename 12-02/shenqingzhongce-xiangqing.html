@@ -206,16 +206,16 @@
                             <div class="medium-12 columns">
                                 <ul class="share-icon">
                                     <li>
-                                        <a href=""><img src="./img/1.1.1/btn_normal_shoucang.png" alt=""></a>
+                                        <a href=""><img src="./img/1.1.1/btn_normal_shoucang.png" class="icon-shoucang" alt=""></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="./img/1.1.1/btn_normal_weibo.png" alt=""></a>
+                                        <a href=""><img src="./img/1.1.1/btn_normal_weibo.png" class="icon-weibo" alt=""></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="./img/1.1.1/btn_normal_weixin.png" alt=""></a>
+                                        <a href=""><img src="./img/1.1.1/btn_normal_weixin.png" class="icon-weixin" alt=""></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src="./img/1.1.1/btn_normal_fuzhilianjie.png" alt=""></a>
+                                        <a href=""><img src="./img/1.1.1/btn_normal_fuzhilianjie.png" class="icon-fuzhilianjie" alt=""></a>
                                     </li>
                                 </ul>
                             </div>
@@ -510,6 +510,28 @@
     <script>
     	rateData = [60, 2, 30, 15, 40, 8];
     	feelRate(rateData);
+    </script>
+    <script>
+        $(".icon-shoucang").hover(function() {
+            $(this).attr("src", "./img/1.1.1/btn_pressedl_shoucang.png")
+        }, function() {
+            $(this).attr("src", "./img/1.1.1/btn_normal_shoucang.png")
+        })
+        $(".icon-weibo").hover(function() {
+            $(this).attr("src", "./img/1.1.1/btn_pressed_weibo.png")
+        }, function() {
+            $(this).attr("src", "./img/1.1.1/btn_normal_weibo.png")
+        })
+        $(".icon-weixin").hover(function() {
+            $(this).attr("src", "./img/1.1.1/btn_pressed_weixin.png")
+        }, function() {
+            $(this).attr("src", "./img/1.1.1/btn_normal_weixin.png")
+        })
+        $(".icon-fuzhilianjie").hover(function() {
+            $(this).attr("src", "./img/1.1.1/btn_pressed_fuzhilianjie.png")
+        }, function() {
+            $(this).attr("src", "./img/1.1.1/btn_normal_fuzhilianjie.png")
+        })
     </script>
 </body>
 

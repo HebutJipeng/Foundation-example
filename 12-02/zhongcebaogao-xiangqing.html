@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/zhongcebaogao-xiangqing.css"/>
 		<link rel="stylesheet" href="css/app.css">
 		<link rel="stylesheet" href="css/shenqing.css">
+    	<link rel="stylesheet" href="css/animate.min.css">
 	</head>
 
 	<body>
@@ -83,9 +84,9 @@
 					<img src="http://cdn.q8oils.cc/08ee635d850a4ffb19d9d3586341ee67@1440w_415h_1c_1e.jpg">
 				</li>
 			</ul>
-			<div class="apply-box-section">
-				<div class="row">
-					<div class="large-offset-9 large-4 apply-box clearfix">
+			<div class="row apply-box-section">
+				
+					<div class="large-offset-9 large-4 apply-box clearfix columns">
 						<h5>网易严选 60S 纯净暖绒 AB件四面套装</h5>
 						<div class="data-left">
 							<p class="try">免费试用：5台</p>
@@ -102,7 +103,7 @@
 							<a class="12 columns ap-btn2" data-open="buyModal">立即购买</a>
 						</div>
 					</div>
-				</div>
+				
 			</div>
 		</div>
 		<!--<div class="row apply-detail-list text-center">
@@ -136,7 +137,7 @@
 			</div>
 		</div>-->
 		<!--<hr style="max-width: 100%;">-->
-		<div class="row">
+		<div class="row column">
 			<div class="medium-8 columns">
 				<div class="row">
 					
@@ -199,29 +200,24 @@
 								<div class="medium-12 columns">
 									<ul class="share-icon">
 										<li>
-											<a href=""><img src="./img/1.1.1/btn_normal_shoucang.png" alt=""></a>
+											<a href=""><img src="./img/1.1.1/btn_normal_shoucang.png" class="icon-shoucang" alt=""></a>
 										</li>
 										<li>
-											<a href=""><img src="./img/1.1.1/btn_normal_weibo.png" alt=""></a>
+											<a href=""><img src="./img/1.1.1/btn_normal_weibo.png" class="icon-weibo" alt=""></a>
 										</li>
 										<li>
-											<a href=""><img src="./img/1.1.1/btn_normal_weixin.png" alt=""></a>
+											<a href=""><img src="./img/1.1.1/btn_normal_weixin.png" class="icon-weixin" alt=""></a>
 										</li>
 										<li>
-											<a href=""><img src="./img/1.1.1/btn_normal_fuzhilianjie.png" alt=""></a>
+											<a href=""><img src="./img/1.1.1/btn_normal_fuzhilianjie.png" class="icon-fuzhilianjie" alt=""></a>
 										</li>
 									</ul>
 								</div>
 								
 								<!--你此刻的心情-->
-
-							</div>
-							<div class="column">
-								<h1 class="mood column">你此刻的心情</h1>
-							</div>
-							<!--申请名单-->
-								<div class="small-up-2 medium-up-5 call-list">
+								<div class="small-up-2 medium-up-5 call-list column">
 									<h1 class="call-list-title">表达过心情的用户</h1>
+									<br>
 									<div class="column">
 										<img src="./img/icon_default_user_Navbar.png" alt="">
 										<span>Leaf312</span>
@@ -283,6 +279,50 @@
 										<span>查看全部</span>
 									</div>
 								</div>
+							</div>
+							<div class="column feel-vote">
+                            <h1 class="call-list-title column">你此刻的心情</h1>
+                            <ul>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="like" value="赞">
+                                </li>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="bud" value="衰">
+                                </li>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="bud" value="萌">
+                                </li>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="ha" value="哈">
+                                </li>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="cao" value="艹">
+                                </li>
+                                <li>
+                                    <div class="feel-rate" orgheight="0">
+                                        <p class="feel-count">0</p>
+                                    </div>
+                                    <input type="button" class="feel-post" post_id="" vote="buy" value="买">
+                                </li>
+                            </ul>
+                        </div>
+							<!--申请名单-->
+								
 						</div>
 						<div class="tabs-panel" id="panel2">
 						</div>
@@ -490,6 +530,34 @@
     <script src="js/app/orbit.js"></script>
     <script>
     $(document).foundation();
+    </script>
+    <script src="js/app/rate.js"></script>
+    <script>
+    	rateData = [60, 2, 30, 15, 40, 8];
+    	feelRate(rateData);
+    </script>
+
+    <script>
+    	$(".icon-shoucang").hover(function() {
+    		$(this).attr("src", "./img/1.1.1/btn_pressedl_shoucang.png")
+    	}, function() {
+    		$(this).attr("src", "./img/1.1.1/btn_normal_shoucang.png")
+    	})
+    	$(".icon-weibo").hover(function() {
+    		$(this).attr("src", "./img/1.1.1/btn_pressed_weibo.png")
+    	}, function() {
+    		$(this).attr("src", "./img/1.1.1/btn_normal_weibo.png")
+    	})
+    	$(".icon-weixin").hover(function() {
+    		$(this).attr("src", "./img/1.1.1/btn_pressed_weixin.png")
+    	}, function() {
+    		$(this).attr("src", "./img/1.1.1/btn_normal_weixin.png")
+    	})
+    	$(".icon-fuzhilianjie").hover(function() {
+    		$(this).attr("src", "./img/1.1.1/btn_pressed_fuzhilianjie.png")
+    	}, function() {
+    		$(this).attr("src", "./img/1.1.1/btn_normal_fuzhilianjie.png")
+    	})
     </script>
 </body>
 

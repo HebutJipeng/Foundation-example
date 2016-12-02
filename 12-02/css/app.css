@@ -453,3 +453,70 @@ hr {
 	right: 50px;
 	/*background-color: #666666;*/
 }
+
+
+
+/*********vote***********/
+
+.feel-vote {
+    clear: both;
+    padding: 30px 0;
+    border-bottom: 1px dotted #f5f5f5;
+}
+
+.feel-vote ul {
+    // overflow: hidden;
+}
+
+.feel-vote ul li {
+    float: left;
+    width: 66px;
+    height: 124px;
+    overflow: visible;
+    display: block;
+    position: relative;
+    margin: 40px 12px 0 0;
+}
+
+.feel-rate {
+    position: absolute;
+    bottom: 34px;
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.feel-count {
+    font-size: 16px;
+    text-align: center;
+    height: 21px;
+    line-height: 21px;
+    margin: -21px 0 0 0;
+    width: 100%;
+}
+
+.feel-post {
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    background: #FC3B26;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 0 0 1px #999;
+    border: none;
+}
+
+.add-one {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-left: -.5rem;
+    margin-top: -.5rem;
+}
+
+.add-clicked {
+    background-color: #000;
+}

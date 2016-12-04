@@ -104,7 +104,7 @@
 }
 
 .tab-hr {
-    /*margin-top: .45rem;*/
+    margin-top: -7px;
 }
 
 .cus-tabs .tabs-title>a {
@@ -173,7 +173,7 @@
     font-weight: 600;
     color: #FC3B26;
     line-height: 20px;
-    border-left: 2px solid #FC3B26;
+    border-left: 3px solid #FC3B26;
     padding-left: 10px;
     margin-top: 30px;
 }
@@ -188,6 +188,7 @@
     color: #666666;
     line-height: 20px;
     margin-top: 40px;
+    margin-bottom: 32px;
 }
 
 .details p {
@@ -202,6 +203,12 @@
 .details p:nth-of-type(5) {
     padding-left: 20px;
     background: url(../img/1.1.1/icon_arrow_image.png) left center no-repeat;
+}
+
+.details .rule {
+    font-size: 16px;
+    line-height: 32px;
+    margin: 0;
 }
 
 .mood {
@@ -220,6 +227,10 @@
     max-width: 600px;
     border-radius: 4px;
     padding: 1.5rem 2rem;
+}
+
+#applyModal .modal-title:after {
+    width: 56px;
 }
 
 .call-list-title h1 {}
@@ -334,7 +345,6 @@
 .call-list span {
     font-size: 16px;
     color: #666;
-    margin-left: 10px;
 }
 
 #buyModal {

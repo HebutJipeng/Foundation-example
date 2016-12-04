@@ -17,6 +17,32 @@ body {
     min-width: 330px;
 }
 
+.row {
+    max-width: 1140px;
+}
+
+/*pagination*/
+
+.pagination a {
+    font-size: 16px;
+    color: #999;
+}
+
+.pagination li:not(.ellipsis) {
+    border-bottom: 3px solid #e6e6e6;
+}
+
+.pagination li.current {
+    color: #ff0000;
+    background-color: #fff;
+    border-bottom: 3px solid #ff0000;
+}
+
+.pagination-previous .current-btn:before,
+.pagination-next .current-btn:after {
+    color: #ff0000;
+}
+
 /*header*/
 
 
@@ -53,6 +79,10 @@ body {
     font-size: 12px;
 }
 
+.top-bar .menu>.is-active>a {
+    color: #FC3B26;
+}
+
 @media screen and (max-width: 64rem){
     .top-bar .menu>li>a {
         padding: .6rem .7rem;
@@ -83,6 +113,15 @@ body {
     padding: 0 0 0 .75rem;
 }
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 0;
+}
+
 
 /********orbit**********/
 
@@ -96,6 +135,7 @@ body {
     margin: 40px 0 -8px 0;
     color: #000;
     font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .row-title:after {
@@ -297,10 +337,15 @@ hr {
     font-size: 12px;
 }
 
-.footer {
+.footer.large {
+    padding: 2.5rem 2.75rem;
     margin: 3rem 0 0 0;
     border: none;
     background-color: #f5f5f5;
+}
+
+.footer.large>.row {
+    max-width: 100%;
 }
 
 .footer-link a {
@@ -309,7 +354,7 @@ hr {
 }
 
 .footer-copy {
-    margin-top: .5rem;
+    margin-top: 20px;
     font-size: 12px;
     color: #666;
 }
@@ -322,6 +367,7 @@ hr {
 
 #loginModal {
     max-width: 30rem;
+    width: 448px;
 }
 
 .login-logo {
@@ -376,7 +422,7 @@ hr {
 
 .login-modal {
     min-height: 338px;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
 }
 
@@ -399,9 +445,18 @@ hr {
     background-color: #FC3B26;
 }
 
-.login-modal h5 {
+.modal-title h5 {
+    margin-bottom: 5px;
     font-size: 14px;
     color: #666;
+}
+
+.modal-title:after {
+    margin-left: 15px;
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #e6e6e6;
 }
 
 .sign {
@@ -414,6 +469,7 @@ hr {
 }
 
 .modal-title {
+    position: relative;
     margin: 1rem 0 0;
 }
 
@@ -444,14 +500,18 @@ hr {
     font-size: 16px;
     color: #666;
 }
-/*fixed*/
-.fixed{
-	width: 30px;
-	height: 30px;
+
+/*scroll to top*/
+
+.scroll-fixed{
+    display: none;
+	width: 44px;
+	height: 44px;
 	position: fixed;
-	bottom: 150px;
-	right: 50px;
-	/*background-color: #666666;*/
+	bottom: 100px;
+	right: 24px;
+    z-index: 10;
+    cursor: pointer;
 }
 
 

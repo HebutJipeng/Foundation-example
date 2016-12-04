@@ -45,13 +45,15 @@
                 <ul class="menu vertical medium-horizontal">
                     <li><a href="#">设计众筹</a></li>
                     <li><a href="#">申请众筹</a></li>
-                    <li><a href="#">众筹报告</a></li>
+                    <li class="is-active"><a href="#">众筹报告</a></li>
                     <li><a href="#">设计导购</a></li>
                 </ul>
             </div>
         </div>
     </div>
     <!-- End Top Bar -->
+
+    <!-- oribit -->
     <div class="orbit row orbit-grid" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
             <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
@@ -92,6 +94,9 @@
             </div>
         </div>
     </div>
+    <!-- oribit end -->
+
+    <!-- applymodal -->
     <div class="small reveal apply-modal" id="applyModal" data-reveal>
         <form data-abide novalidate>
             <div class="row clearfix ">
@@ -133,16 +138,18 @@
             </div>
         </form>
     </div>
-    
+    <!-- applymodal  end -->
+
     <br class="hide-for-small-only">
     <br class="hide-for-small-only">
     
+    <!-- content -->
     <ul class="tabs row columns cus-tabs hide-for-small-only" data-tabs id="example-tabs">
-        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">全部众测</a></li>
-        <li class="tabs-title"><a href="#panel2">申请中</a></li>
-        <li class="tabs-title"><a href="#panel3">即将开始</a></li>
-        <li class="tabs-title"><a href="#panel4">体验中</a></li>
-        <li class="tabs-title"><a href="#panel5">已结束</a></li>
+        <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">全部报告</a></li>
+        <li class="tabs-title"><a href="#panel2">最近报告</a></li>
+        <li class="tabs-title"><a href="#panel3">本周最热</a></li>
+        <li class="tabs-title"><a href="#panel4">本月最热</a></li>
+        <li class="tabs-title"><a href="#panel5">历史最热</a></li>
     </ul>
     <div class="row columns">
         <hr class="tab-hr">
@@ -154,28 +161,30 @@
                 <div class="column">
                     <img class="report-img" src="http://placehold.it/300x400">
                     <h5 class="report-title">平仄纯木家具卧室系列</h5>
-                <p class="report-fee row">
-                    <span class="small-8 columns"><i class="report-name">sheiv</i>于17:25发布</span>
-                    <span class="small-2 columns report-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
-                    <span class="small-2 columns report-fire-num float-right"><i class="watch">&nbsp;</i>217</span>
-                </p>
+                    <p class="report-fee row">
+                        <span class="small-8 columns"><i class="report-name">sheiv</i>于17:25发布</span>
+                        <span class="small-2 columns report-fire-num float-right"><i class="fire">&nbsp;</i>217</span>
+                        <span class="small-2 columns report-fire-num float-right"><i class="watch">&nbsp;</i>217</span>
+                    </p>
+                </div>
             </div>
+        </div>
+        <div class="tabs-panel" id="panel2">
+        
+        </div>
+        <div class="tabs-panel" id="panel3">
+            
+        </div>
+        <div class="tabs-panel" id="panel4">
+            
+        </div>
+        <div class="tabs-panel" id="panel5">
+            
+        </div>
     </div>
-    </div>
-    </div>
-    </div>
-    <div class="tabs-panel" id="panel2">
-        <!--热门众筹 -->
-    </div>
-    <div class="tabs-panel" id="panel3">
-        <!--热门众筹 -->
-    </div>
-    <div class="tabs-panel" id="panel4">
-        <!--热门众筹 -->
-    </div>
-    <div class="tabs-panel" id="panel5">
-        <!--热门众筹 -->
-    </div>
+
+    
+    <!-- loginmodal -->
     <div class="small reveal login-modal" id="loginModal" data-reveal>
         <form data-abide novalidate>
             <div class="row clearfix ">
@@ -216,6 +225,22 @@
             </div>
         </form>
     </div>
+    <!-- loginmodal end   -->
+
+    <!-- pagination -->
+    <ul class="pagination text-center" role="navigation" aria-label="Pagination">
+      <li class="pagination-previous"><a href="" class="current-btn">最新</a></li>
+      <li class="pagination-previous"><a href=""></a></li>
+      <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+      <li><a href="#" aria-label="Page 2">2</a></li>
+      <li><a href="#" aria-label="Page 3">3</a></li>
+      <li><a href="#" aria-label="Page 4">4</a></li>
+      <li class="ellipsis"></li>
+      <li class="pagination-next"><a href="#" class="current-btn" aria-label="Next page"></a></li>
+      <li class="pagination-next"><a href="#">最旧</a></li>
+    </ul>
+    <!-- pagination end -->
+
 
     <!-- footer -->
     <div class="callout large secondary footer">

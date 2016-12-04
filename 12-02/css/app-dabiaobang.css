@@ -35,8 +35,9 @@
 	font-size: 20px;
 	color: #FC3B26;
 	line-height: 20px;
-	border-left: 2px solid #FC3B26;
+	border-left: 3px solid #FC3B26;
 	padding-left: 10px;
+	font-weight: 600;
 }
 .c-darenbang{
 	margin-top: 30px;
@@ -47,6 +48,7 @@
 }
 .c-darenbang a span{
 	padding-bottom: 10px;
+	font-weight: 600;
 }
 hr{
 	margin: 0;

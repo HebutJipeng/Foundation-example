@@ -21,6 +21,10 @@ body {
     max-width: 1140px;
 }
 
+ul li {
+    list-style: none;
+}
+
 /*pagination*/
 
 .pagination a {

@@ -1,0 +1,151 @@
+
+/*.message{
+	position: relative;
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+}
+.message img{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.top-bar-right a{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.top-bar-right{
+	margin-top: 10px;
+}
+.top-bar-right li a{
+	margin-left: 20px !important;
+}
+.message img:nth-of-type(2){
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.top-bar-right li{
+	margin-right: 20px;
+}*/
+.main{
+	margin-top: 30px;
+}
+.h-darenbang h1{
+	font-family: PingFangSC-Medium;
+	font-size: 20px;
+	color: #FC3B26;
+	line-height: 20px;
+	border-left: 3px solid #FC3B26;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.c-darenbang{
+	margin-top: 30px;
+}
+.reset{
+	/*border-bottom: 2px solid #999999;*/
+	height: 30px;
+}
+.c-darenbang a span{
+	padding-bottom: 10px;
+	font-weight: 600;
+}
+hr{
+	margin: 0;
+	margin-top: 2px;
+}
+.c-darenbang a span:hover{
+	color: #FC3B26;
+	border-bottom: 2px solid #FC3B26;
+}
+.c-darenbang .l-darenbang li:nth-of-type(1) span{
+	color: #FC3B26;
+	border-bottom: 2px solid #FC3B26;
+}
+.l-darenbang{
+	margin-top: 10px;
+}
+.l-darenbang a{
+	font-family: PingFangSC-Regular;
+	font-size: 18px;
+	color: #999999;
+	line-height: 18px;
+}
+select{
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+.th{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #999999;
+	line-height: 42px;
+}
+.shiyongbaogao div{
+	margin: 30px 0 0;
+}
+
+.shiyongbaogao a{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+	line-height: 42px;
+}
+.shiyongbaogao .active{
+	color: #FC3B26;
+}
+.shiyongbaogao a:hover{
+	color: #666666;
+	border: none;
+}
+.shiyongbaogao .shiyongbaogao-ul{
+	margin-top: 20px;
+}
+.shiyongbaogao .shiyongbaogao-ul li:nth-of-type(2){
+	padding-left: 50px;
+	background: url(../img/Slice/icon_default_user_Navbar.png) left center no-repeat;
+	background-size: 42px 42px;
+}
+
+.shiyongbaogao .shiyongbaogao-ul:nth-of-type(1) li:nth-of-type(2){
+	padding-left: 0px;
+	background: none;
+}
+.heimingdan{
+	margin-top: 30px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #148FF5;
+	line-height: 14px;
+}
+
+@media screen and (max-width: 900px) {
+    .top-bar-grid{
+		margin: 0 10px;
+	}
+	.top-bar-left .vertical li{
+		padding-right: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+    .top-bar-grid{
+		margin: 0px;
+	}
+	.top-bar-left .vertical li{
+		padding-right: 20px;
+	}
+	.top-bar-title img{
+		margin-left: 15px;
+	}
+	
+	.l-darenbang a{
+		font-family: PingFangSC-Regular;
+		font-size: 14px;
+		color: #999999;
+		line-height: 18px;
+	}
+	select{
+        font-size: 12px;
+    }
+	
+}

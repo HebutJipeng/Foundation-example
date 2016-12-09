@@ -1,0 +1,17 @@
+.daogou-office{
+	margin-top: 20px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #666666;
+	line-height: 12px;
+}
+.daogou-office span{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #FC3B26;
+	line-height: 12px;
+	margin-left: 10px;
+}
+.apply-btn{
+	margin-top: 50px;
+}

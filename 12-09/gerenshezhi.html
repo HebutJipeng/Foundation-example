@@ -1,0 +1,361 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/gerenzhongxin.css" />
+</head>
+
+<body>
+    <!-- Start Top Bar -->
+    <div class="top-bar top-bar-grid">
+        <div>
+            <div class="top-bar-title">
+                <ul class="menu">
+                    <li>
+                        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                            <button class="menu-icon dark" type="button" data-toggle></button>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="logo"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="responsive-menu">
+            <div class="top-bar-left">
+                <ul class="menu vertical medium-horizontal">
+                    <li class="is-active">
+                        <a href="index.html">设计众筹</a>
+                    </li>
+                    <li>
+                        <a href="shenqingzhongce.html">申请众测</a>
+                    </li>
+                    <li>
+                        <a href="zhongcebaogao.html">众测报告</a>
+                    </li>
+                    <li>
+                        <a href="shejidaogou.html">设计导购</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="float-right">
+            <div class="top-bar-right">
+                <ul class="menu float-right">
+                    <li>
+                        <a data-open="loginModal"><i class="portrait"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" data-open="loginModal1"><i class="more"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+    <!-- user center -->
+    <div class="row">
+        <div class="large-2 columns">
+            <div class="row left-bar columns">
+                <div class="small-12 columns text-center portrait-sec">
+                    <img src="./img/5/icon_default_user.png" alt="">
+                    <h2>leaf</h2>
+                    <p class="por-type">主创设计师[LV5]</p>
+                    <p class="por-mark">积分：2000</p>
+                </div>
+                <div class="small-12 columns">
+                    <ul class="menu vertical text-center left-menu">
+                        <li class="is-active"><a href="gerenzhongxin.html">申请记录</a></li>
+                        <li><a href="zhanneitongzhi.html">站内通知</a></li>
+                        <li><a href="wodebaogao.html">我的报告</a></li>
+                        <li><a href="wodeshoucang.html">我的收藏</a></li>
+                        <li  class="is-active"><a href="gerenshezhi.html">个人设置</a></li>
+                    </ul>
+                    <ul class="menu vertical text-center portrait-ul2">
+                        <li><a href="gerenshezhi.html" class="is-active">编辑资料</a></li>
+                        <li><a href="xiugaimima.html">修改密码</a></li>
+                        <li><a href="shouhuodizhi.html">收货地址</a></li>
+                        <li><a href="wodedengji.html">我的等级</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="large-10 columns">
+            <div class="row content-bar">
+                <div class="small-12 columns">
+                    <ul class="row data-tabs tabs cus-tabs" data-tabs id="example-tabs">
+                        <li class="tabs-title small-6 large-2 medium-2 columns is-active">
+                            <a href="#panel1" aria-selected="true"><span>个人资料</span></a>
+                        </li>
+                        <li class="tabs-title small-6 large-2 medium-2 columns float-left">
+                            <a href="#panel2"><span>企业用户资料</span></a>
+                        </li>
+                    </ul>
+                    <hr class="tab-hr">
+                </div>
+            </div>
+            <div class="tabs-content row cus-tabs-content columns" data-tabs-content="example-tabs">
+                <div class="tabs-panel is-active medium-6 columns" id="panel1">
+                    <div class="row">
+                        <div class="medium-12 columns portrait-content">
+                            <div class="row portrait-tabs">
+                                <div class="medium-3 columns medium-text-center">头 像</div>
+                                <div class="medium-9 columns"><img src="img/1.1.1/icon_default_user_pinglun.png" alt=""><a href="">修改头像</a></div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">昵 称<span>*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入昵称">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">一句话介绍<span>*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">手 机<span>*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入手机号">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">验证手机<span>*</span></div>
+                                <div class="medium-9 columns row float-right phone-verify">
+                                    <div class="small-9 columns">
+                                        <input type="text" placeholder="请输入验证码">
+                                    </div>
+                                    <div class="small-3 columns float-right">
+                                        <input type="text" value="获取验证码">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">邮 箱<span>*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入与邮箱地址">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">性 别</div>
+                                <div class="medium-9 columns">
+                                    <input type="checkbox"><span class="sex">男</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox"><span class="sex">女</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">身份证号</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="手机号/邮箱/账户号">
+                                    <p>填写身份证号可以提高申请通过率</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 columns save text-center">
+                            <button type="button" class="small-12 medium-offset-3 medium-3 column">保存修改</button>
+                            <button type="button" class="small-12 medium-3 medium-offset-1 column end">取消</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-panel medium-8 columns float-left" id="panel2">
+                    <div class="row">
+                        <div class="medium-12 columns span-sup">
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">公司名称<span class="sup">*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入公司名称">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">公司网址<span class="sup">*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入公司网址">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">公司规模<span class="sup">*</span></div>
+                                <div class="medium-9 columns">
+                                    <div class="row large-up-4">
+                                        <div class="column">
+                                            <input type="checkbox"><span>5人以下</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>5-10人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>10-30人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>30-100人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>100-300人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>300-800人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>800-1500人</span>
+                                        </div>
+                                        <div class="column">
+                                            <input type="checkbox"><span>1500人以上</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">联系人姓名<span class="sup">*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入联系人姓名">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">联系人职位<span class="sup">*</span></div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入联系人职位">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">请输入联系人职位</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入联系人手机号">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="medium-3 columns medium-text-center">验证手机<span class="sup">*</span></div>
+                                <div class="medium-9 columns row float-right phone-verify">
+                                    <div class="small-9 columns">
+                                        <input type="text" placeholder="请输入验证码">
+                                    </div>
+                                    <div class="small-3 columns float-right">
+                                        <input type="text" value="获取验证码">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">公司类型</div>
+                                <div class="medium-9 columns">
+                                    <input type="checkbox"><span>私有企业</span>
+                                    <input type="checkbox"><span>国有企业</span>
+                                    <input type="checkbox"><span>外企独资</span>
+                                    <input type="checkbox"><span>中外合资</span>
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">公司LOGO</div>
+                                <div class="medium-9 columns">
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <div class="row special ">
+                                <div class="medium-3 columns medium-text-center">公司电话</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入公司电话">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">公司地址</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入公司地址">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">产品介绍</div>
+                                <div class="medium-9 columns">
+                                    <textarea name="" id="" cols="30" rows="10">请输入</textarea>
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">公司上年营销额</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">微信二维码</div>
+                                <div class="medium-9 columns">
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">公司介绍</div>
+                                <div class="medium-9 columns">
+                                    <textarea name="" id="" cols="30" rows="10">请输入</textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="small-12 columns login-account">设计癖账户登录</div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">营业执照</div>
+                                <div class="medium-9 columns">
+                                    <input type="file">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">组织机构代码证</div>
+                                <div class="medium-9 columns">
+                                    <input type="text" placeholder="请输入">
+                                </div>
+                            </div>
+                            <div class="row special">
+                                <div class="medium-3 columns medium-text-center">营业执照</div>
+                                <div class="medium-9 columns">
+                                    <input type="file">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="small-12 columns save text-center">
+                            <button type="button" class="small-12 medium-offset-3 medium-2 column">保存修改</button>
+                            <button type="button" class="small-12 medium-2 medium-offset-1 column end">取消</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- user center end -->
+    <!-- 回到页面顶部 -->
+    <div class="scroll-fixed hide-for-small-only">
+        <img src="img/icon_back Top.png" alt="" />
+    </div>
+    <!-- 回到页面顶部结束 -->
+    <!-- footer -->
+    <div class="callout large secondary footer">
+        <div class="row">
+            <div class="medium-4 columns">
+                <div class="row footer-link">
+                    <div class="large-3 columns"><a href="">关于设计癖</a></div>
+                    <div class="large-3 columns"><a href="">联系我们</a></div>
+                    <div class="large-3 columns"><a href="">加入我们</a></div>
+                    <div class="large-3 columns"><a href="">常见问题</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="small-12 columns">
+                版权信息Copyright ©2016 Shejipi 使用设计癖前必读 京ICP证030173号
+            </div>
+        </div>
+    </div>
+    <!-- footer结束 -->
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./js/foundation.js"></script>
+    <script src="./js/app/orbit.js"></script>
+    <script src="./js/app/scrolltotop.js"></script>
+    <script src="./js/app/constrain.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+
+</html>

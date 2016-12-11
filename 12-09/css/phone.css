@@ -1,6 +1,6 @@
 .modal-title span{
 	color: #666666;
-	border-bottom: 2px solid rgb(245,245,245);
+	/*border-bottom: 2px solid rgb(245,245,245);*/
 	padding-bottom: .5rem;
 }
 .modal-title-little{

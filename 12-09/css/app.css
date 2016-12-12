@@ -219,6 +219,42 @@ hr {
     background-color: #FC3B26;
 }
 
+.card-tag-2 {
+    position: absolute;
+    top: 10px;
+    left: 1.5rem;
+    padding: 4px 8px;
+    font-size: .75rem;
+    line-height: 12px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #F69A8F;
+}
+
+.card-tag-3 {
+    position: absolute;
+    top: 10px;
+    left: 1.5rem;
+    padding: 4px 8px;
+    font-size: .75rem;
+    line-height: 12px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #ccc;
+}
+
+.card-tag-4 {
+    position: absolute;
+    top: 10px;
+    left: 1.5rem;
+    padding: 4px 8px;
+    font-size: .75rem;
+    line-height: 12px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #FC3B26;
+}
+
 .card-title {
     margin-top: 1rem;
     font-size: .875rem;
@@ -288,8 +324,7 @@ hr {
 .like {
     width: 15px;
     height: 15px;
-    /*background-image: url(../img/icon_active_fire.png);*/
-    background-color: #EE6723;
+    background-image: url(../img/icon_dim_zan.png);
     background-repeat: no-repeat;
     background-position: center;
 }

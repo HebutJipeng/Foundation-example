@@ -11,6 +11,7 @@
     <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/shenqing-j.css">
+    <link rel="stylesheet" href="css/search.css">
 </head>
 
 <body>
@@ -153,7 +154,7 @@
 
          <div class="medium-3 columns search-box text-right float-right">
             <!-- <span class="search-box-show">价格筛选<i class="search-box-cancel"></i></span> -->
-            <i class="search-box-icon">&nbsp;</i>
+            <a data-open='searchModal'><i class="search-box-icon">&nbsp;</i></a>
             <!-- <div class="sarch-box-select text-left">
                 <ul>
                     <li><a href="">全部</a></li>
@@ -292,6 +293,29 @@
         </form>
     </div>
     <!-- loginmodal end   -->
+    
+    <!-- 搜索框 -->
+    <div class="large reveal search-bar" id="searchModal" data-reveal >
+        <div class="row">
+            <div class="small-12 columns input-group">
+                <i class="input-group-label"></i>
+                <input type="text" class="input-group-field" placeholder="搜索">
+            </div>
+            <hr>
+            <div class="small-12 columns">
+                <ul class="key-word">
+                    <li class="float-left"><a href="">1关键词</a></li>
+                    <li class="float-left"><a href="">21关键词</a></li>
+                    <li class="float-left"><a href="">31关键词</a></li>
+                    <li class="float-left"><a href="">41关键词</a></li>
+                    <li class="float-left"><a href="">51关键词</a></li>
+                    <li class="float-left"><a href="">61关键词</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索框 -->
+
 
     <!-- pagination -->
     <ul class="pagination text-center" role="navigation" aria-label="Pagination">

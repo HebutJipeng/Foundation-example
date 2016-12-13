@@ -14,7 +14,7 @@ body * {
 }  
 
 body {
-    min-width: 330px;
+    min-width: 300px;
 }
 
 .row {
@@ -56,6 +56,7 @@ ul li {
 }
 
 .logo {
+    display: inline-block;
     padding: 0;
     width: 170px;
     height: 28px;
@@ -409,8 +410,10 @@ hr {
 }
 
 #loginModal {
-    max-width: 30rem;
-    width: 448px;
+    max-width: 448px;
+    width: 90%;
+    margin: auto;
+    height: 40vh;
 }
 
 .login-logo {
@@ -682,4 +685,36 @@ hr {
 
 .search-box-show .search-box-cancel {
 
+}
+
+
+@media screen and (max-width: 40em){
+    .modal-title {        
+        margin: 0;
+    }
+
+    .modal-title h5 {
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #666;
+    }
+
+    .title-bar {
+        background-color: #fff;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+
+    .menu-icon:after {
+        background: #333;
+        box-shadow: 0 7px 0 #333,0 14px 0 #333;
+    }
+
+    .logo {
+         transform: translateY(0); 
+    }
+
+    .title-bar-right {
+        margin-top: 7px;
+    }
 }

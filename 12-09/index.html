@@ -15,20 +15,18 @@
 
 <body>
     <!-- Start Top Bar -->
-    <div class="top-bar top-bar-grid">
-        <div>
-            <div class="top-bar-title">
-                <ul class="menu">
-                    <li>
-                        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                            <button class="menu-icon dark" type="button" data-toggle></button>
-                        </span>
-                    </li>
-                    <li>
-                        <a href="index.html"><i class="logo"></i></a>
-                    </li>
-                </ul>
-            </div>
+    <div class="top-bar top-bar-grid hide-for-small-only">
+        <div class="top-bar-title">
+            <ul class="menu">
+                <li>
+                    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                        <button class="menu-icon dark" type="button" data-toggle></button>
+                    </span>
+                </li>
+                <li>
+                    <a href="index.html"><i class="logo"></i></a>
+                </li>
+            </ul>
         </div>
         <div id="responsive-menu">
             <div class="top-bar-left">
@@ -59,6 +57,16 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+
+    <div class="title-bar text-center show-for-small-only">
+        <span><i class="logo"></i></span>
+        <div class="title-bar-right">
+            <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+        </div>
+        <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+            <!-- todo -->
         </div>
     </div>
     <!-- End Top Bar -->
@@ -346,7 +354,7 @@
 	            		<li class="active">个人</li>
 	            		<li>企业</li>
 	            	</ul>
-	            	<hr />
+	            	<hr class="tab-hr">
 	            </div>
 	           
 	            

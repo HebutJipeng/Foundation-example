@@ -718,3 +718,21 @@ hr {
         margin-top: 7px;
     }
 }
+
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.help-block {
+    position: absolute; 
+    top: 42px;
+    left: 0;
+    font-size: .8rem;
+    color: #f45460;
+}
+

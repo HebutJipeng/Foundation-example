@@ -434,6 +434,7 @@ hr {
 .login-pwd-input {
     /*border-left: none;*/
     font-size: .8rem;
+    box-shadow: none;
 }
 
 .login-logo-input {
@@ -717,6 +718,11 @@ hr {
     .title-bar-right {
         margin-top: 7px;
     }
+
+    .feel-vote ul li {
+        width: 15%;
+        margin: 40px 5px 0 0;
+    }
 }
 
 .input-group {
@@ -736,3 +742,20 @@ hr {
     color: #f45460;
 }
 
+.right-menu li a{
+    color: #666;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 1rem;
+}
+
+.right-menu .portrait {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/icon_default_user_Navbar.png);
+    background-repeat: no-repeat;
+}
+
+.close-button .right-arr {
+    font-size: 1.5rem;
+}

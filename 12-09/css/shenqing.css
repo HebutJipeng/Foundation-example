@@ -346,6 +346,10 @@
 .call-list span {
     font-size: 16px;
     color: #666;
+    width: 45px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 #buyModal {
@@ -392,12 +396,37 @@
 }
 
 
-/*@media screen and (max-width: 767px) {
-    .top-bar-right .menu li a{
-        font-size: 12px;
-        padding: .6rem 0rem .7rem 1rem;
+@media screen and (max-width: 40em){
+    #applyModal {
+        padding: 0;
     }
-    .logo{
-        display: none !important;
+    #applyModal .modal-title {
+         text-align: center;
+         padding: .5rem;
+         border: 1px solid #eee;
+         color: #333;   
+    }  
+
+    #applyModal .modal-title h5 {
+        font-size: 20px;
     }
-}*/
+    #applyModal .modal-title:after {
+        background-color: #fff;
+    }
+
+    .input-group-label {
+        border: 1px solid #fff;
+    }
+
+    .input-group-field {
+        border: 1px solid #fff;
+    }
+
+    .input-group {
+        border-bottom: 1px solid #cacaca;
+    }
+    .apply-reason {
+        box-shadow: none;
+        border-color: #fff;
+    }
+}

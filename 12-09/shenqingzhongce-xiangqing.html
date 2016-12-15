@@ -86,7 +86,7 @@
             </li>
         </ul>
         <div class="apply-box-section">
-            <div class="row">
+            <div class="row columns">
                 <div class="large-offset-9 large-4 apply-box clearfix">
                     <h5>网易严选 60S 纯净暖绒 AB件四面套装</h5>
                     <div class="data-left">
@@ -112,28 +112,28 @@
 
     <!-- show list  -->
     <div class="row apply-detail-list text-center">
-        <div class="medium-3 columns">
+        <div class="small-6 medium-3 columns">
             <a href="">
                 <img src="./img/1.1.1/icon_normal_chanpinsheniqng.png" alt="">
                 <h5>产品申请</h5>
                 <p>点击立即申请按钮，即可参与活动</p>
             </a>
         </div>
-        <div class="medium-3 columns">
+        <div class="small-6 medium-3 columns">
             <a href="">
                 <img src="./img/1.1.1/icon_normal_mingdanqueren.png" alt="">
                 <h5>名单确定</h5>
                 <p>公布申请成功名单，相关用户需及时确认</p>
             </a>
         </div>
-        <div class="medium-3 columns">
+        <div class="small-6 medium-3 columns">
             <a href="">
                 <img src="./img/1.1.1/icon_normal_shouhuotiyan.png" alt="">
                 <h5>收货体验</h5>
                 <p>名单确认后寄送产品，供用户体验</p>
             </a>
         </div>
-        <div class="medium-3 columns">
+        <div class="small-6 medium-3 columns">
             <a href="">
                 <img src="./img/1.1.1/icon_normal_tijiaobaogao.png" alt="">
                 <h5>报告提交</h5>
@@ -150,14 +150,14 @@
         <div class="medium-8 columns">
             <div class="row column">
                 <div class="small-12 columns">
-                    <ul class="row hide-for-small-only data-tabs">
-                        <li class="small-2 column is-active">
+                    <ul class="row data-tabs">
+                        <li class="small-4 medium-3 large-2 column is-active">
                             <a href="#panel1" aria-selected="true"><span>产品详情</span></a>
                         </li>
-                        <li class="small-2 column">
+                        <li class="small-4 medium-3 large-2 column">
                             <a href="#panel2"><span>活动详情</span></a>
                         </li>
-                        <li class="small-2 end column">
+                        <li class="small-4 medium-3 large-2 end column">
                             <a href="#panel3"><span>申请名单</span></a>
                         </li>
                     </ul>
@@ -229,7 +229,7 @@
                                 </ul>
                             </div>
                             <!--申请名单-->
-                            <div class="small-up-2 medium-up-5 call-list column">
+                            <div class="small-up-3 medium-up-5 call-list column">
                                 <h1 class="call-list-title column">申请名单</h1>
                                 <div class="column">
                                     <img src="./img/icon_default_user_Navbar.png" alt="">
@@ -289,7 +289,7 @@
                                 </div>
                                 <div class="column text-center">
                                     <a data-open="buyModal">
-                                        <span style="line-height: 2.5rem"> 查看全部</span>
+                                        <span style="line-height: 2.5rem; width: 100%;"> 查看全部</span>
                                     </a>
                                 </div>
                             </div>
@@ -388,8 +388,11 @@
     <!-- applymodal   -->
     <div class="small reveal apply-modal" id="applyModal" data-reveal>
             <form data-abide novalidate>
-                <div class="row clearfix ">
+                <div class="row clearfix  hide-for-small-only">
                     <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true" data-close>&nbsp;</i>
+                </div>
+                <div class="row clearfix  show-for-small-only">
+                    <i class="small-1 float-left close-button" aria-hidden="true" data-close style="left:1rem;font-style: normal;"><</i>
                 </div>
                 <div class="row modal-title">
                     <h5 class="small-12 columns">提交申请</h5>
@@ -413,7 +416,7 @@
                     </div>
                     <p class="small-12 columns apply-tips">提示：以上信息均为必填，请确保填写的信息真实有效，否则很可能和大奖擦肩而过</p>
                 </div>
-                <div class="row columns align-spaced">
+                <div class="row align-spaced">
                     <button class="button small-5 column submit-btn" type="submit" value="Submit">提交申请</button>
                     <button class="button small-5 column cancel-btn" type="button" value="Cancel">取消</button>
                 </div>
@@ -425,14 +428,14 @@
     <div class="row buy-modal reveal" id="buyModal" data-reveal>
         <form data-abide novalidate>
             <div class="row clearfix ">
-                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true">&nbsp;</i>
+                <i class="small-1 small-offset-11 close float-right close-button" aria-hidden="true" data-close>&nbsp;</i>
             </div>
             <div class="row modal-title">
-                <h5 class="small-12 columns">设计癖账户登录</h2>
+                <h5 class="small-12 columns">设计癖账户登录</h5>
 
             </div>
             <br>
-            <div class="row small-up-2 medium-up-3 buy-modal-contents">
+            <div class="row small-up-3 medium-up-3 buy-modal-contents">
                 <div class="column">
                 <img src="./img/icon_default_user_Navbar.png" alt="">
                 <span>姓名</span>
@@ -476,7 +479,7 @@
             </div>
             <div class="row">
                 <fieldset class="small-12 columns">
-                    <div class="small-offset-6 small-6">
+                    <div class="small-12">
                         <button class="button small-12  columns submit-btn" type="submit" value="Submit">立即申请</button>
                     </div>
                   

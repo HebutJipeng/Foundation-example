@@ -723,6 +723,27 @@ hr {
         width: 15%;
         margin: 40px 5px 0 0;
     }
+
+    .tab-hr {
+        margin-bottom: 0;
+    }
+
+    .row .cus-tabs {
+        margin-top: .5rem;
+    }
+        
+    .row .search-box {
+        margin-top: .1rem;
+    }
+
+    .row .cus-tabs .tabs-title>a {
+        margin-right: 1rem;
+        font-size: 12px;
+    } 
+
+    .row .cus-tabs .is-active>a:after {
+        top: 1.6rem;
+    }
 }
 
 .input-group {

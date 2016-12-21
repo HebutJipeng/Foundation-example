@@ -261,12 +261,5 @@
 
 
 @media screen and (max-width: 40em) {
-   .cus-tabs .tabs-title>a {
-        margin-right: 1rem;
-        font-size: 12px;
-    } 
-
-    .cus-tabs .is-active>a:after {
-        top: 1.6rem;
-    }
+   
 }

@@ -780,3 +780,16 @@ hr {
 .close-button .right-arr {
     font-size: 1.5rem;
 }
+
+.alertMsg {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    padding: 5px 10px;
+    color: #fff;
+    max-width: 200px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 999;
+}

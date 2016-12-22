@@ -63,22 +63,42 @@
     </div>
     <!-- End Top Bar -->
     <!-- user center -->
-    <div class="row">
+    <div class="row user-content">
         <div class="large-2 columns">
             <div class="row left-bar columns">
-                <div class="small-12 columns text-center portrait-sec">
+                <div class="small-12 columns text-center portrait-sec hide-for-small-only">
                     <img src="./img/5/icon_default_user.png" alt="">
                     <h2>leaf</h2>
                     <p class="por-type">主创设计师[LV5]</p>
                     <p class="por-mark">积分：2000</p>
                 </div>
+                <div class="small-12 columns show-for-small-only">
+                    <div class="row portrait-sec portract-sec2">
+                        <div class="small-3 columns">
+                            <img src="./img/5/icon_default_user.png" alt="">
+                        </div>
+                        <div class="small-9 columns">
+                            <h2>leaf</h2>
+                            <span class="por-type">主创设计师[LV5]</span>
+                            <span class="por-mark">积分：2000</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="small-12 columns">
-                    <ul class="menu vertical text-center left-menu">
+                    <ul class="menu vertical medium-text-center left-menu" data-accordion-menu>
                         <li class="is-active"><a href="gerenzhongxin.html">申请记录</a></li>
                         <li><a href="zhanneitongzhi.html">站内通知</a></li>
                         <li><a href="wodebaogao.html">我的报告</a></li>
                         <li><a href="wodeshoucang.html">我的收藏</a></li>
-                        <li><a href="gerenshezhi.html">个人设置</a></li>
+                        <li>
+                            <a href="gerenshezhi.html">个人设置</a>
+                            <ul class="menu vertical nested medium-text-center portrait-ul2">
+                                <li><a href="gerenshezhi.html" class="is-active">编辑资料</a></li>
+                                <li><a href="xiugaimima.html">修改密码</a></li>
+                                <li><a href="shouhuodizhi.html">收货地址</a></li>
+                                <li><a href="wodedengji.html">我的等级</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -102,150 +122,94 @@
             </div>
             <div class="tabs-content row cus-tabs-content" data-tabs-content="example-tabs">
                 <div class="tabs-panel is-active" id="panel1">
-					<div class="row">
-					    <div class="small-12 columns">
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p class="small-float-center">平仄纯木家具卧室系列</p>
-					                        <p class="small-text-center">官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns small-text-center time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns small-text-center"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p>平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p>平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					    </div>
-					</div>
+                    <div class="row">
+                        <div class="small-6 medium-3 columns">
+                            <img src="img/5/item_default_image_remenzhongce.png" alt="">
+                        </div>
+                        <div class="small-6 medium-9 columns  details-right">
+                            <p class="small-float-center">平仄纯木家具卧室系列</p>
+                            <p class="small-text-center">官方报价：￥1234</p>
+                            <div class="row">
+                                <div class="medium-10 columns small-text-center time">申请时间：2016-10-23 13：00</div>
+                                <div class="medium-2 columns small-text-center"><a href="">删除</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tabs-panel" id="panel2">
-                	<div class="row">
-					    <div class="small-12 columns">
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p>11平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                        <button>查看报告</button>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					        
-					    </div>
-					</div>
+                    <div class="row">
+                        <div class="medium-3 columns">
+                            <img src="img/5/item_default_image_remenzhongce.png" alt="">
+                        </div>
+                        <div class="medium-9 columns  details-right">
+                            <p class="small-float-center">平仄纯木家具卧室系列</p>
+                            <p class="small-text-center">官方报价：￥1234</p>
+                            <div class="row">
+                                <div class="medium-10 columns small-text-center time">申请时间：2016-10-23 13：00</div>
+                                <div class="medium-2 columns small-text-center"><a href="">删除</a></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="tabs-panel" id="panel3">
-                	<div class="row">
-					    <div class="small-12 columns">
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns details-right">
-					                        <p>平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p>平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					        <div class="row">
-					            <div class="small-12 columns">
-					                <div class="row">
-					                    <div class="medium-3 columns">
-					                        <img src="img/5/item_default_image_remenzhongce.png" alt="">
-					                    </div>
-					                    <div class="medium-9 columns  details-right">
-					                        <p>平仄纯木家具卧室系列</p>
-					                        <p>官方报价：￥1234</p>
-					                        <div class="row">
-					                            <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
-					                            <div class="medium-2 columns"><a href="">删除</a></div>
-					                        </div>
-					                    </div>
-					                </div>
-					            </div>
-					        </div>
-					        <hr>
-					    </div>
-					</div>
+                    <div class="row">
+                        <div class="small-12 columns">
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <div class="row">
+                                        <div class="medium-3 columns">
+                                            <img src="img/5/item_default_image_remenzhongce.png" alt="">
+                                        </div>
+                                        <div class="medium-9 columns details-right">
+                                            <p>平仄纯木家具卧室系列</p>
+                                            <p>官方报价：￥1234</p>
+                                            <div class="row">
+                                                <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                                                <div class="medium-2 columns"><a href="">删除</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <div class="row">
+                                        <div class="medium-3 columns">
+                                            <img src="img/5/item_default_image_remenzhongce.png" alt="">
+                                        </div>
+                                        <div class="medium-9 columns  details-right">
+                                            <p>平仄纯木家具卧室系列</p>
+                                            <p>官方报价：￥1234</p>
+                                            <div class="row">
+                                                <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                                                <div class="medium-2 columns"><a href="">删除</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="small-12 columns">
+                                    <div class="row">
+                                        <div class="medium-3 columns">
+                                            <img src="img/5/item_default_image_remenzhongce.png" alt="">
+                                        </div>
+                                        <div class="medium-9 columns  details-right">
+                                            <p>平仄纯木家具卧室系列</p>
+                                            <p>官方报价：￥1234</p>
+                                            <div class="row">
+                                                <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                                                <div class="medium-2 columns"><a href="">删除</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -257,7 +221,7 @@
     </div>
     <!-- 回到页面顶部结束 -->
     <!-- footer -->
-    <div class="callout large secondary footer">
+    <div class="callout large secondary footer hide-for-small-only">
         <div class="row">
             <div class="medium-4 columns">
                 <div class="row footer-link">
@@ -278,7 +242,7 @@
     <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="./js/foundation.js"></script>
     <script src="./js/app/orbit.js"></script>
-    <script src="./js/app/scrolltotop.js"></script>
+    <!-- <script src="./js/app/scrolltotop.js"></script> -->
     <script src="./js/app/constrain.js"></script>
     <script>
     $(document).foundation();

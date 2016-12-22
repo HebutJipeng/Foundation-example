@@ -1,60 +1,61 @@
-.modal-title span{
-	color: #666666;
-	/*border-bottom: 2px solid rgb(245,245,245);*/
-	padding-bottom: .5rem;
+.modal-title span {
+    color: #666666;
+    /*border-bottom: 2px solid rgb(245,245,245);*/
+    padding-bottom: .5rem;
 }
-.modal-title-little{
-	margin-top: 1.5rem;
-	margin-bottom: .8rem;
+
+.modal-title-little {
+    margin-top: 1.5rem;
+    margin-bottom: .8rem;
 }
-.apply-modal{
-	border-radius: 0.8rem;
-	max-width: 448px;
+
+.reveal-overlay .apply-modal {
+    border-radius: 4px;
+    max-width: 448px;
     width: 90%;
     margin: auto;
-}	
 }
-.apply-modal hr{
-	margin: 0;
-	margin-top: -2px;
+
+.apply-modal hr {
+    margin: 0;
+    margin-top: -2px;
 }
-.modal-title-little ul{
-	/*border-bottom: 2px solid #666666;*/
+
+.modal-title-little ul {
+    /*border-bottom: 2px solid #666666;*/
 }
-.modal-title-little li{
-	padding-bottom: .5rem;
-	border-bottom: 2px solid #666666;
+
+.modal-title-little li {
+    padding-bottom: .5rem;
+    border-bottom: 2px solid #666666;
 }
-.modal-title-little .active{
-	color: red;
-	border-bottom: 2px solid red;
+
+.modal-title-little .active {
+    color: red;
+    border-bottom: 2px solid red;
 }
 
 @media screen and (max-width: 350px) {
     form .span {
         font-size: 10px;
     }
-    
 }
 
-@media screen and (max-width: 40em){
-	.apply-modal {
-		min-height: 68.4vh;
-		height: 68.4vh;
-	}	
-	.modal-title-little {
-	    margin-top: .5rem;
-	    margin-bottom: 0rem;
-	}
-
-	.tab-hr {
-		margin-top: 0;
-	}
-
-	.apply-modal .submit-btn {
-	    margin-bottom: 0;
-	    background-color: #FC3B26;
-	    font-size: 16px;
-	}
+@media screen and (max-width: 40em) {
+    .apply-modal {
+        min-height: 68.4vh;
+        height: 68.4vh;
+    }
+    .modal-title-little {
+        margin-top: .5rem;
+        margin-bottom: 0rem;
+    }
+    .tab-hr {
+        margin-top: 0;
+    }
+    .apply-modal .submit-btn {
+        margin-bottom: 0;
+        background-color: #FC3B26;
+        font-size: 16px;
+    }
 }
-

@@ -43,10 +43,14 @@ hr {
     border-bottom: 1px solid #eee;
 }
 
-@media screen and (max-width: 40em){
+.portract-sec2 {
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 40em) {
     .left-bar {
         border-right: none;
-    }  
+    }
 }
 
 .portrait-sec h2 {
@@ -54,54 +58,40 @@ hr {
     width: 100%;
     font-size: 18px;
     font-family: PingFangSC-Medium;
-	font-size: 18px;
-	color: #333333;
-	line-height: 18px;
+    font-size: 18px;
+    color: #333333;
+    line-height: 18px;
 }
 
-.portrait-sec .portrait-p{
-	width: 70%;
-	margin: 10px auto;
-	background: #FFBB1C;
-	border-radius: 2px;
+.portract-sec2 h2 {
+    margin: 5px 0;
 }
 
-.portrait-ul2 li{
-	padding: 1rem 0;
+.portrait-sec .portrait-p {
+    width: 70%;
+    margin: 10px auto;
+    background: #FFBB1C;
+    border-radius: 2px;
 }
 
-.portrait-ul2 a{
-	font-family: PingFangSC-Regular;
-	font-size: 14px;
-	color: #999999;
-	line-height: 14px;
+.portrait-content>div {
+    margin-bottom: 20px;
 }
 
-.portrait-ul2 .is-active{
-	font-family: PingFangSC-Regular;
-	font-size: 14px;
-	color: #FC3B26;
-	line-height: 14px;
+.portrait-content {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    line-height: 14px;
 }
 
-.portrait-content>div{
-	margin-bottom: 20px;
+.portrait-tabs img {
+    width: 42px;
+    margin-right: 10px;
 }
 
-.portrait-content{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #666666;
-line-height: 14px;
-}
-
-.portrait-tabs img{
-	width: 42px;
-	margin-right: 10px;
-}
-
-.portrait-content span{
-	color: #FC3B26;
+.portrait-content span {
+    color: #FC3B26;
 }
 
 .portrait-sec .por-type {
@@ -119,37 +109,35 @@ line-height: 14px;
     font-size: 14px;
 }
 
-.phone-verify>div:nth-of-type(1){
-	padding-right: 0;
+.phone-verify>div:nth-of-type(1) {
+    padding-right: 0;
 }
 
-.phone-verify>div:nth-of-type(2){
-	/*border: 1px solid red;*/
-	margin: 0;
-	height: 40px;
-	padding-left: 0;
+.phone-verify>div:nth-of-type(2) {
+    /*border: 1px solid red;*/
+    margin: 0;
+    height: 40px;
+    padding-left: 0;
 }
 
-.phone-verify>div:nth-of-type(2) input{
-	border-left: none;
-	text-align: right;
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #1390F5;
-line-height: 14px;
-	
+.phone-verify>div:nth-of-type(2) input {
+    border-left: none;
+    text-align: right;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1390F5;
+    line-height: 14px;
 }
 
-.phone-verify>div:nth-of-type(1) input{
-	border-right: none;
-	
+.phone-verify>div:nth-of-type(1) input {
+    border-right: none;
 }
 
-.portrait-content .sex{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #999999;
-line-height: 14px;
+.portrait-content .sex {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 14px;
 }
 
 .content-bar {
@@ -183,7 +171,6 @@ line-height: 14px;
 .cus-tabs .is-active>a {
     position: relative;
     color: #FC3B26;
-
 }
 
 .cus-tabs .is-active>a:after {
@@ -191,33 +178,34 @@ line-height: 14px;
     top: 2rem;
     left: 0;
     content: "";
-    width: 6rem;
+    // width: 6rem;
+    width: 4.5rem;
     height: 2px;
     background-color: #FC3B26;
 }
 
-.save{
-	margin-top: 30px;
+.save {
+    margin-top: 30px;
 }
 
-.save button{
-	display: inline-block;
-	margin-top: 10px;
-	font-family: PingFangSC-Regular;
-font-size: 16px;
-color: #666666;
-line-height: 40px;
-height: 40px;
-background-color: #F5F5F5;
+.save button {
+    display: inline-block;
+    margin-top: 10px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #666666;
+    line-height: 40px;
+    height: 40px;
+    background-color: #F5F5F5;
 }
 
-.save button:nth-of-type(1){
-	font-family: PingFangSC-Regular;
-font-size: 16px;
-color: #FFFFFF;
-line-height: 16px;
-background-color: #FC3B26;
-/*margin-right: 10px;*/
+.save button:nth-of-type(1) {
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 16px;
+    background-color: #FC3B26;
+    /*margin-right: 10px;*/
 }
 
 .fire {
@@ -225,30 +213,31 @@ background-color: #FC3B26;
     vertical-align: sub;
 }
 
-.details-right{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #000000;
-line-height: 14px;
+.details-right {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
 }
 
-.details-right p:nth-of-type(2){
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #999999;
-line-height: 12px;
+.details-right p:nth-of-type(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    line-height: 12px;
 }
 
-.time{
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #FC3B26;
-line-height: 12px;
+.time {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FC3B26;
+    line-height: 12px;
 }
+
 
 /*****left-menu******/
 
-.left-menu li a{
+.left-menu li a {
     font-size: 18px;
     color: #999;
 }
@@ -261,140 +250,182 @@ line-height: 12px;
     color: #FC3B26;
 }
 
-.span-sup .sup{
-	color: #FC3B26;
+.span-sup .sup {
+    color: #FC3B26;
 }
 
-.span-sup>div{
-	margin-bottom: 20px;
-}
-.span-sup{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #666666;
-line-height: 14px;
-margin-bottom: 20px;
+.span-sup>div {
+    margin-bottom: 20px;
 }
 
-.login-account{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #FC3B26;
-line-height: 14px;
-margin: 20px 0;
+.span-sup {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    line-height: 14px;
+    margin-bottom: 20px;
 }
 
-.introduce-right p:nth-of-type(1){
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #000000;
-line-height: 14px;
+.login-account {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FC3B26;
+    line-height: 14px;
+    margin: 20px 0;
 }
 
-.introduce-right p:nth-of-type(2){
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #999999;
-line-height: 12px;
+.introduce-right p:nth-of-type(1) {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
 }
 
-.introduce-right span{
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #666666;
-line-height: 12px;
-margin-left: 10px;
+.introduce-right p:nth-of-type(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    line-height: 12px;
 }
 
-.margin-hr{
-	margin: 30px 0;
+.introduce-right span {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    line-height: 12px;
+    margin-left: 10px;
 }
 
-.introduce-shoucang p:nth-of-type(1){
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #000000;
-line-height: 14px;
+.margin-hr {
+    margin: 30px 0;
 }
 
-.introduce-shoucang p:nth-of-type(2) span:nth-of-type(1){
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #FC3B26;
-line-height: 12px;
+.introduce-shoucang p:nth-of-type(1) {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
 }
 
-.introduce-shoucang p:nth-of-type(2) span:nth-of-type(2){
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #999999;
-line-height: 12px;
-margin-left: 25px;
+.introduce-shoucang p:nth-of-type(2) span:nth-of-type(1) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FC3B26;
+    line-height: 12px;
 }
 
-.introduce-shoucang p:nth-of-type(3),.introduce p:nth-of-type(3){
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #999999;
-letter-spacing: 0;
-/*line-height: 34px;*/
+.introduce-shoucang p:nth-of-type(2) span:nth-of-type(2) {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #999999;
+    line-height: 12px;
+    margin-left: 25px;
 }
 
-.shoucang a{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #1390F5;
-line-height: 14px;
-position: relative;
-top: 20px;
+.introduce-shoucang p:nth-of-type(3),
+.introduce p:nth-of-type(3) {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    /*line-height: 34px;*/
 }
 
-.introduce p:nth-of-type(1){
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #000000;
-line-height: 14px;
+.shoucang a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1390F5;
+    line-height: 14px;
+    position: relative;
+    top: 20px;
 }
 
-.introduce .sheiv{
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #4990E2;
-line-height: 12px;
+.introduce p:nth-of-type(1) {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 14px;
 }
 
-.introduce .time{
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #666666;
-line-height: 12px;
-margin-left: 10px;
+.introduce .sheiv {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #4990E2;
+    line-height: 12px;
 }
 
-.introduce .num{
-	font-family: PingFangSC-Regular;
-font-size: 12px;
-color: #666666;
-line-height: 12px;
+.introduce .time {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    line-height: 12px;
+    margin-left: 10px;
 }
 
-.introduce i{
-	margin-left: 25px;
+.introduce .num {
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #666666;
+    line-height: 12px;
 }
 
-.text-style{
-	font-family: PingFangSC-Regular;
-font-size: 14px;
-color: #666666;
-line-height: 14px;
+.introduce i {
+    margin-left: 25px;
 }
 
-@media screen and (max-width: 40em){
-    #example-tabs span{
-	font-size: 14px;
-} 
-#example-tabs li{
-	padding-right: 0px;
-}
+.text-style {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #666666;
+    line-height: 14px;
 }
 
+.portrait-ul2 li {
+    padding: 1rem 0;
+}
+
+.portrait-ul2 li a {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    line-height: 14px;
+}
+
+.portrait-ul2 .is-active {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #FC3B26;
+    line-height: 14px;
+}
+
+.user-content {
+    min-height: 600px;
+}
+
+@media screen and (max-width: 40em) {
+    #example-tabs span {
+        font-size: 14px;
+    }
+    #example-tabs li {
+        padding-right: 0px;
+    }
+    .left-menu li {
+        padding: 0;
+    }
+    .left-menu>li a {
+        padding: 1rem 0;
+        border-bottom: 1px solid #eee;
+    }
+    .portrait-ul2 li {
+        padding: 0;
+    }
+    .portrait-ul2 li a {
+        border-bottom: none;
+    }
+    .tab-hr {
+        margin: 0;
+    }
+    .row {
+        max-width: 1140px;
+    }
+}

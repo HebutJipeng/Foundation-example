@@ -149,3 +149,9 @@ select{
     }
 	
 }
+
+@media screen and (max-width: 40em) {
+	.shiyongbaogao div {
+		margin-top: 0;
+	}
+}

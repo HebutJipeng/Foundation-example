@@ -429,3 +429,36 @@ hr {
         max-width: 1140px;
     }
 }
+
+:last-child:not(.is-active)>.accordion-title {
+    border: none;
+}
+
+.accordion-title:focus, .accordion-title:hover,  .accordion-title:visited{
+    background-color: #fff;
+    color: #000;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.accordion-title {
+    border: none;
+    font-size: 14px;
+    color: #000;
+}
+.accordion-content {
+    border: none;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 34px;
+}
+
+.accordion-title:before,
+.accordion-item:first-child>:first-child, .accordion-item:last-child>:last-child,.is-active>.accordion-title:before {
+    content: "";
+}

@@ -737,7 +737,7 @@ hr {
     }
 
     .row .cus-tabs .tabs-title>a {
-        // margin-right: 1rem;
+        margin-right: 1rem;
         font-size: 12px;
     } 
 
@@ -792,4 +792,10 @@ hr {
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, .3);
     z-index: 999;
+}
+
+@media screen and (max-width: 55em) and (min-width: 40em){
+    .row .cus-tabs .tabs-title>a {
+        margin-right: 1rem;
+    } 
 }

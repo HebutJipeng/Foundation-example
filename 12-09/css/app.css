@@ -130,6 +130,24 @@ ul li {
 
 /********orbit**********/
 
+.orbit-previous {
+    width: 34px;
+    height: 44px;
+    background-image: url(../img/Slice/btn_normal_left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.orbit-next {
+    width: 34px;
+    height: 44px;
+    background-image: url(../img/Slice/btn_normal_right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
 .orbit-grid {
     max-width: 1440px;
 }

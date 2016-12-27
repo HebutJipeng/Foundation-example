@@ -5,13 +5,18 @@
 }
 
 body * {
-    font-family: "PingFangSC-Regular", "sans-serif", "STHeitiSC-Light", "微软雅黑", "Microsoft YaHei"!important;
+    font-family: "PingFang Bold", "sans-serif", "STHeitiSC-Light", "微软雅黑", "Microsoft YaHei";
 }
 
 @font-face {
     font-family: 'PingFangSC-Regular';
     src:   url('../fonts/PingFangSC-Regular.ttf') format('truetype');
 }  
+
+@font-face {
+    font-family: 'PingFang Bold';
+    src:   url('../fonts/PingFang Bold.ttf') format('truetype');
+} 
 
 body {
     min-width: 300px;
@@ -175,6 +180,14 @@ ul li {
     background-color: #000;
 }
 
+.row-title2:after {
+    width: 70px;
+}
+
+.row-title3:after {
+    width: 72px;
+}
+
 .row-more {
     margin-bottom: -1rem;
     transform: translateY(-10px);
@@ -188,6 +201,7 @@ hr {
 
 .talent-list .column {
     margin-bottom: .5rem;
+    padding-left: 0;
 }
 
 .talent {
@@ -203,6 +217,7 @@ hr {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #666;
 }
 
 @media screen and (max-width: 67em){
@@ -212,9 +227,18 @@ hr {
 }
 
 
+.card .column {
+    padding-left: 0;
+}
+
 .card-img {
     width: 100%;
     height: 243px;
+}
+
+.report .column {
+    padding-left: 0;
+    margin-bottom: 40px;
 }
 
 .report-img {
@@ -224,12 +248,13 @@ hr {
 
 .card .column {
     position: relative;
+    margin-bottom: 42px;
 }
 
 .card-tag {
     position: absolute;
     top: 10px;
-    left: 1.5rem;
+    left: 1rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -241,7 +266,7 @@ hr {
 .card-tag-2 {
     position: absolute;
     top: 10px;
-    left: 1.5rem;
+    left: 1rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -253,7 +278,7 @@ hr {
 .card-tag-3 {
     position: absolute;
     top: 10px;
-    left: 1.5rem;
+    left: 1rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -265,7 +290,7 @@ hr {
 .card-tag-4 {
     position: absolute;
     top: 10px;
-    left: 1.5rem;
+    left: 1rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -303,6 +328,10 @@ hr {
     word-spacing: 24px;
 }
 
+.card-fee span {
+    font-family: "PingFangSC-Regular";
+}
+
 .report-fee {
     margin-bottom: .5rem;
     font-size: 12px;
@@ -314,7 +343,7 @@ hr {
     font-size: .75rem;
     color: #666;
     line-height: 1.125rem;
-    margin-bottom: 42px;
+    font-family: "PingFangSC-Regular";
 }
 
 .card-call .card-call-num {
@@ -354,6 +383,11 @@ hr {
     background-image: url(../img/icon_chakanrenshu.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.guide .column {
+    padding-left: 0;
+    margin-bottom: 16px;
 }
 
 .guide-fee {
@@ -432,6 +466,7 @@ hr {
     width: 90%;
     margin: auto;
     height: 40vh;
+    border: none;
 }
 
 .login-logo {
@@ -446,6 +481,7 @@ hr {
 .login-logo-label,
 .login-pwd-label {
     background-color: #fff;
+    border-color: #e6e6e6;
 }
 
 .login-logo-input,
@@ -455,15 +491,29 @@ hr {
     box-shadow: none;
 }
 
-.login-logo-input {
-    /*border-right: none;*/
+.login-logo-input,
+.login-logo-input:focus 
+{
+    border-right: none;
+    border-left: none;
     box-shadow: none;
+    border-color: #e6e6e6;
+}
+
+.login-pwd-input,
+.login-pwd-input:focus {
+border-left: none;
+    box-shadow: none;
+    border-color: #e6e6e6;
+
 }
 
 .login-logo-button {
-    border: 1px solid #cacaca;
+    border: 1px solid #e6e6e6;
     border-left: none;
 }
+
+
 
 .login-logo-btn {
     background-color: #fff;
@@ -472,8 +522,8 @@ hr {
 }
 
 .login-logo-btn:hover {
-    background-color: #148FF5;
-    border-color: #148FF5;
+    background-color: #fff;
+    color: #148FF5;
 }
 
 .login-pwd {
@@ -529,8 +579,13 @@ hr {
     font-size: 14px;
 }
 
+.sign span {
+     font-family: "PingFangSC-Regular";   
+}
+
 .sign a {
     color: #666;
+    font-family: "PingFangSC-Regular";
 }
 
 .modal-title {
@@ -816,4 +871,8 @@ hr {
     .row .cus-tabs .tabs-title>a {
         margin-right: 1rem;
     } 
+}
+
+.inner-content {
+    margin-top: 40px;
 }

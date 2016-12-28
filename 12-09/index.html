@@ -74,12 +74,13 @@
                         <div class="top-bar-right">
                             <ul class="menu float-right">
                                 <li>
-                                    <a data-open="loginModal"><i class="portrait"></i></a>
+                                    <a class="login-trigger" data-open="loginModal"><i class="portrait"></i></a>
                                 </li>
                                 <li>
                                     <a href="gerenzhongxin.html"><i class="more"></i></a>
                                 </li>
                             </ul>
+                            <input type="hidden" class="is-show" value="0">
                         </div>
                     </div>
                 </div>
@@ -458,7 +459,12 @@
                 </script>
                 <script src="./js/app/notice.js"></script>
                 <script>
-                    alertMsg("hello world");
+                    $(function() {
+                        var _isShow = $(".is-show").val();
+                        if (parseInt(_isShow) == 1) {
+                            $("#loginModal").foundation("open");
+                        }
+                    })
                 </script>
             </div>
         </div>

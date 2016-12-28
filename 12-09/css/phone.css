@@ -22,17 +22,17 @@
 }
 
 .modal-title-little ul {
-    /*border-bottom: 2px solid #666666;*/
+    border-bottom: 1px solid #eee;
 }
 
 .modal-title-little li {
     padding-bottom: .5rem;
-    border-bottom: 2px solid #666666;
+    border-bottom: 1px solid #666666;
 }
 
 .modal-title-little .active {
     color: red;
-    border-bottom: 2px solid red;
+    border-bottom: 1px solid red;
 }
 
 @media screen and (max-width: 350px) {

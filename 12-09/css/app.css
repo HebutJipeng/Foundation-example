@@ -23,7 +23,8 @@ body {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1172px;
+    // padding: 0 1rem;
 }
 
 ul li {
@@ -154,7 +155,8 @@ ul li {
 }
 
 .orbit-grid {
-    max-width: 1440px;
+    max-width: 100%;
+    padding: 0;
 }
 
 .orbit-slide img {
@@ -201,7 +203,6 @@ hr {
 
 .talent-list .column {
     margin-bottom: .5rem;
-    padding-left: 0;
 }
 
 .talent {
@@ -228,7 +229,7 @@ hr {
 
 
 .card .column {
-    padding-left: 0;
+    // padding-left: 0;
 }
 
 .card-img {
@@ -237,7 +238,6 @@ hr {
 }
 
 .report .column {
-    padding-left: 0;
     margin-bottom: 40px;
 }
 
@@ -254,7 +254,7 @@ hr {
 .card-tag {
     position: absolute;
     top: 10px;
-    left: 1rem;
+    left: 1.5rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -266,7 +266,7 @@ hr {
 .card-tag-2 {
     position: absolute;
     top: 10px;
-    left: 1rem;
+    left: 1.5rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -278,7 +278,7 @@ hr {
 .card-tag-3 {
     position: absolute;
     top: 10px;
-    left: 1rem;
+    left: 1.5rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -290,7 +290,7 @@ hr {
 .card-tag-4 {
     position: absolute;
     top: 10px;
-    left: 1rem;
+    left: 1.5rem;
     padding: 4px 8px;
     font-size: .75rem;
     line-height: 12px;
@@ -386,7 +386,6 @@ hr {
 }
 
 .guide .column {
-    padding-left: 0;
     margin-bottom: 16px;
 }
 
@@ -467,6 +466,7 @@ hr {
     margin: auto;
     height: 40vh;
     border: none;
+    max-height: 338px;
 }
 
 .login-logo {
@@ -859,12 +859,14 @@ border-left: none;
     left: 50%;
     top: 50%;
     display: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     color: #fff;
     max-width: 200px;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .55);
+    font-size: 1.1rem;
     z-index: 999;
+    // border-radius: 4px;
 }
 
 @media screen and (max-width: 55em) and (min-width: 40em){
@@ -875,4 +877,8 @@ border-left: none;
 
 .inner-content {
     margin-top: 40px;
+}
+
+.box-title {
+    max-width: 1140px;
 }

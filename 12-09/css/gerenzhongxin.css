@@ -402,6 +402,10 @@ hr {
     min-height: 600px;
 }
 
+.user-content>.columns {
+    height: 100%;
+}
+
 @media screen and (max-width: 40em) {
     #example-tabs span {
         font-size: 14px;
@@ -471,4 +475,12 @@ hr {
 .accordion-item:last-child>:last-child,
 .is-active>.accordion-title:before {
     content: "";
+}
+
+.footer.large {
+    margin-top: 0;
+}
+
+.g-grid {
+    max-width: 1172px;
 }

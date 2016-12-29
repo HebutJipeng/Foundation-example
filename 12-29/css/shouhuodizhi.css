@@ -1,0 +1,40 @@
+.hover a{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #00AAFF;
+	line-height: 12px;
+}
+
+.button-dizhi button{
+	border: 1px solid red;font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 16px;
+	padding: 10px 20px;
+	background: #FC3B26;
+}
+
+.address {
+	padding: 25px;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.address .save {
+	padding: 10px 40px;
+	margin-right: 20px;
+	background: #FC3B26;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.address .cancel {
+	padding: 10px 40px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #666666;
+	line-height: 16px;
+	background-color: #f5f4f4;
+}

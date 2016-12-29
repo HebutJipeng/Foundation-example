@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/gerenzhongxin.css" />
+</head>
+
+<body>
+    <div class="row content-bar">
+        <div class="small-12 columns">
+            <ul class="row data-tabs tabs cus-tabs" data-tabs id="example-tabs">
+                <li class="tabs-title small-3 large-3 medium-3 columns is-active">
+                    <a href="#panel1" aria-selected="true"><span>个人资料</span></a>
+                </li>
+            </ul>
+            <hr class="tab-hr">
+        </div>
+    </div>
+    <div class="tabs-content row cus-tabs-content columns" data-tabs-content="example-tabs">
+        <div class="tabs-panel is-active large-6 columns" id="panel1">
+            <div class="row">
+                <div class="medium-12 columns portrait-content">
+                    <div class="row portrait-tabs">
+                        <div class="medium-3 columns medium-text-center">头 像</div>
+                        <div class="medium-9 columns"><img src="img/1.1.1/icon_default_user_pinglun.png" alt=""><a href="">修改头像</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">昵 称<span>*</span></div>
+                        <div class="medium-9 columns">
+                            <input type="text" placeholder="请输入昵称">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">一句话介绍<span>*</span></div>
+                        <div class="medium-9 columns">
+                            <input type="text" placeholder="请输入">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">手 机<span>*</span></div>
+                        <div class="medium-9 columns">
+                            <input type="text" placeholder="请输入手机号">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">验证手机<span>*</span></div>
+                        <div class="medium-9 columns row float-right phone-verify">
+                            <div class="small-9 columns">
+                                <input type="text" placeholder="请输入验证码">
+                            </div>
+                            <div class="small-3 columns float-right">
+                                <input type="text" value="获取验证码">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">邮 箱<span>*</span></div>
+                        <div class="medium-9 columns">
+                            <input type="text" placeholder="请输入与邮箱地址">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">性 别</div>
+                        <div class="medium-9 columns">
+                            <input type="checkbox"><span class="sex">男</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox"><span class="sex">女</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="medium-3 columns medium-text-center">身份证号</div>
+                        <div class="medium-9 columns">
+                            <input type="text" placeholder="手机号/邮箱/账户号">
+                            <p>填写身份证号可以提高申请通过率</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 columns save text-center">
+                    <button type="button" class="small-12 medium-offset-3 medium-3 column">保存修改</button>
+                    <button type="button" class="small-12 medium-3 medium-offset-1 column end">取消</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../js/foundation.js"></script>
+    <script src="../js/app/orbit.js"></script>
+    <!-- <script src="./js/app/scrolltotop.js"></script> -->
+    <script src="../js/app/constrain.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+
+</html>

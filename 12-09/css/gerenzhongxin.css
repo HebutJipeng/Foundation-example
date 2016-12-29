@@ -2,6 +2,10 @@ body {
     height: auto;
 }
 
+* {
+    outline: none;
+}
+
 
 .row {
     max-width: 100%;

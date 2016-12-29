@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/gerenzhongxin.css" />
+</head>
+
+<body>
+    <!-- Start Top Bar -->
+    <div class="top-bar top-bar-grid">
+        <div>
+            <div class="top-bar-title">
+                <ul class="menu">
+                    <li>
+                        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                            <button class="menu-icon dark" type="button" data-toggle></button>
+                        </span>
+                    </li>
+                    <li>
+                        <a href="index.html"><i class="logo"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="responsive-menu">
+            <div class="top-bar-left">
+                <ul class="menu vertical medium-horizontal">
+                    <li class="is-active">
+                        <a href="index.html">设计众测</a>
+                    </li>
+                    <li>
+                        <a href="shenqingzhongce.html">申请众测</a>
+                    </li>
+                    <li>
+                        <a href="zhongcebaogao.html">众测报告</a>
+                    </li>
+                    <li>
+                        <a href="shejidaogou.html">设计导购</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="float-right">
+            <div class="top-bar-right">
+                <ul class="menu float-right">
+                    <li>
+                        <a data-open="loginModal"><i class="portrait"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" data-open="loginModal1"><i class="more"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Bar -->
+    <!-- user center -->
+    <div class="row user-content">
+        <div class="large-2 columns left-sec">
+            <div class="row left-bar columns">
+                <div class="small-12 columns text-center portrait-sec hide-for-small-only">
+                    <img src="../img/5/icon_default_user.png" alt="">
+                    <h2>leaf</h2>
+                    <p class="por-type">主创设计师[LV5]</p>
+                    <p class="por-mark">积分：2000</p>
+                </div>
+                <div class="small-12 columns show-for-small-only">
+                    <div class="row portrait-sec portract-sec2">
+                        <div class="small-3 columns">
+                            <img src="../img/5/icon_default_user.png" alt="">
+                        </div>
+                        <div class="small-9 columns">
+                            <h2>leaf</h2>
+                            <span class="por-type">主创设计师[LV5]</span>
+                            <span class="por-mark">积分：2000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-12 columns">
+                    <ul class="menu vertical medium-text-center left-menu" data-accordion-menu>
+                        <li class="is-active"><a href="gerenzhongxin.html">申请记录</a></li>
+                        <li><a href="zhanneitongzhi.html">站内通知</a></li>
+                        <li><a href="wodebaogao.html">我的报告</a></li>
+                        <li><a href="wodeshoucang.html">我的收藏</a></li>
+                        <li>
+                            <a href="gerenshezhi.html">个人设置</a>
+                            <ul class="menu vertical nested medium-text-center portrait-ul2">
+                                <li><a href="gerenshezhi.html" class="is-active">编辑资料</a></li>
+                                <li><a href="xiugaimima.html">修改密码</a></li>
+                                <li><a href="shouhuodizhi.html">收货地址</a></li>
+                                <li><a href="wodedengji.html">我的等级</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="large-10 columns">
+
+            <iframe src="gerenshezhi.html" frameborder="0" scrolling="no" width="100%" height="100%" id="myIframe"></iframe>
+            
+        </div>
+    </div>
+    <!-- user center end -->
+    <!-- 回到页面顶部 -->
+    <div class="scroll-fixed hide-for-small-only">
+        <img src="../img/icon_back Top.png" alt="" />
+    </div>
+    <!-- 回到页面顶部结束 -->
+    <!-- footer -->
+    <div class="callout large secondary footer show-for-large">
+        <div class="row">
+            <div class="medium-4 columns">
+                <div class="row footer-link">
+                    <div class="large-3 columns"><a href="">关于设计癖</a></div>
+                    <div class="large-3 columns"><a href="">联系我们</a></div>
+                    <div class="large-3 columns"><a href="">加入我们</a></div>
+                    <div class="large-3 columns"><a href="">常见问题</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-copy">
+            <div class="small-12 columns">
+                版权信息Copyright ©2016 Shejipi 使用设计癖前必读 京ICP证030173号
+            </div>
+        </div>
+    </div>
+    <!-- footer结束 -->
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        // var _heigth = $("body").height()- $(".top-bar").height() -140;
+        // $(".user-content").height(_heigth);
+    </script>
+    <script src="../js/foundation.js"></script>
+    <script src="../js/app/orbit.js"></script>
+    <!-- <script src="./js/app/scrolltotop.js"></script> -->
+    <script src="../js/app/constrain.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+    <script>
+        $(function() {
+            var _h = $("#myIframe").contents().find("body").height() + 30;
+            console.log("==>", $("#myIframe").height());
+            console.log("---->", _h);
+            $(".user-content").height(_h);
+        })
+
+    </script>
+</body>
+
+</html>

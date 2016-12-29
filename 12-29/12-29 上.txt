@@ -1,0 +1,9 @@
+gerenzhongxin 页面添加了 添加了 box-title
+
+	整体都放在了 /gerenzhongixn 这个文件夹中，通过 /gerenzhongxin/gerenzhongxin.html 来完成跳转
+	iframe 调整高度 还是有问题,正在做
+
+index 的83行做了隐藏域 class = "is-show"  控制显示的js在页面的最下方
+
+提示框的 样式 在css中修改了 app.css
+

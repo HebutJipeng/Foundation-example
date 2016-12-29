@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/gerenzhongxin.css" />
+</head>
+
+<body>
+    <div class="row content-bar">
+        <div class="small-12 columns">
+            <ul class="row data-tabs tabs cus-tabs" data-tabs id="example-tabs">
+                <li class="tabs-title large-2 medium-3 small-4 columns is-active">
+                    <a href="#panel1" aria-selected="true"><span>申请中(4)</span></a>
+                </li>
+                <li class="tabs-title large-2 medium-3 small-4 columns">
+                    <a href="#panel2"><span>申请成功(3)</span></a>
+                </li>
+                <li class="tabs-title large-2 medium-3 small-4 end columns">
+                    <a href="#panel3"><span>申请失败(5)</span></a>
+                </li>
+            </ul>
+            <hr class="tab-hr">
+        </div>
+    </div>
+    <div class="tabs-content row cus-tabs-content" data-tabs-content="example-tabs">
+        <!-- 每个panel 都是可以替换的 -->
+        <!--block start -->
+        <div class="tabs-panel is-active" id="panel1">
+            <div class="row g-grid">
+                <div class="small-6 medium-3 columns">
+                    <img src="../img/5/item_default_image_remenzhongce.png" alt="">
+                </div>
+                <div class="small-6 medium-9 columns  details-right">
+                    <p class="small-float-center">平仄纯木家具卧室系列</p>
+                    <p class="small-text-center">官方报价：￥1234</p>
+                    <div class="row">
+                        <div class="medium-10 columns small-text-center time">申请时间：2016-10-23 13：00</div>
+                        <div class="medium-2 columns small-text-center"><a href="">删除</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-panel" id="panel2">
+            <div class="row g-grid">
+                <div class="medium-3 columns">
+                    <img src="../img/5/item_default_image_remenzhongce.png" alt="">
+                </div>
+                <div class="medium-9 columns  details-right">
+                    <p class="small-float-center">平仄纯木家具卧室系列</p>
+                    <p class="small-text-center">官方报价：￥1234</p>
+                    <div class="row">
+                        <div class="medium-10 columns small-text-center time">申请时间：2016-10-23 13：00</div>
+                        <div class="medium-2 columns small-text-center"><a href="">删除</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-panel" id="panel3">
+            <div class="row g-grid">
+                <div class="medium-3 columns">
+                    <img src="../img/5/item_default_image_remenzhongce.png" alt="">
+                </div>
+                <div class="medium-9 columns details-right">
+                    <p>平仄纯木家具卧室系列</p>
+                    <p>官方报价：￥1234</p>
+                    <div class="row">
+                        <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                        <div class="medium-2 columns"><a href="">删除</a></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row g-grid">
+                <div class="medium-3 columns">
+                    <img src="../img/5/item_default_image_remenzhongce.png" alt="">
+                </div>
+                <div class="medium-9 columns details-right">
+                    <p>平仄纯木家具卧室系列</p>
+                    <p>官方报价：￥1234</p>
+                    <div class="row">
+                        <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                        <div class="medium-2 columns"><a href="">删除</a></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row g-grid">
+                <div class="medium-3 columns">
+                    <img src="../img/5/item_default_image_remenzhongce.png" alt="">
+                </div>
+                <div class="medium-9 columns details-right">
+                    <p>平仄纯木家具卧室系列</p>
+                    <p>官方报价：￥1234</p>
+                    <div class="row">
+                        <div class="medium-10 columns time">申请时间：2016-10-23 13：00</div>
+                        <div class="medium-2 columns"><a href="">删除</a></div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <!--block end -->
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../js/foundation.js"></script>
+    <script src="../js/app/orbit.js"></script>
+    <!-- <script src="./js/app/scrolltotop.js"></script> -->
+    <script src="../js/app/constrain.js"></script>
+    <!-- <script src="../js/app/resize.js"></script> -->
+    <script>
+    $(document).foundation();
+    </script>
+    <script>
+    $(window.parent.document).find("#myIframe").load(function() {
+        $(".tabs-title").find("a").click(function() {
+            var main = $(window.parent.document).find(".user-content");
+            var thisheight = $("body").height();
+            if (thisheight > main.height()) {
+                main.height(thisheight + 30);
+            }
+
+            console.log("this ====>", thisheight);
+
+        })
+
+    });
+
+    $('.tabs-title').on("selectTab", function() {
+        console.log("666")
+    })
+    </script>
+</body>
+
+</html>

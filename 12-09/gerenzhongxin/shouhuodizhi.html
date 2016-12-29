@@ -1,0 +1,80 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/foundation.min.css">
+    <!-- modernizr 文件 -->
+    <script src="http://static.runoob.com/assets/foundation-5.5.3/js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" type="text/css" href="../css/gerenzhongxin.css" />
+</head>
+
+<body>
+    <div class="row content-bar">
+        <div class="small-12 columns">
+            <ul class="row data-tabs tabs cus-tabs" data-tabs id="example-tabs">
+                <li class="tabs-title large-2 medium-2 columns is-active">
+                    <a href="#panel1" aria-selected="true"><span>收货地址</span></a>
+                </li>
+            </ul>
+            <hr class="tab-hr">
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns button-dizhi">
+            <button type="button"  data-open="exampleModal1">添加收货地址</button>
+        </div>
+    </div>
+    <div class="tabs-content row cus-tabs-content" data-tabs-content="example-tabs">
+        <div class="tabs-panel is-active" id="panel1">
+            <table class="hover stack">
+              <thead>
+                <tr>
+                  <th width="200">收货人</th>
+                  <th>收货地址</th>
+                  <th width="150">邮编</th>
+                  <th width="180">联系电话</th>
+                  <th width="150" class="medium-text-center">操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>张一山</td>
+                  <td>北京市东花市北里20号楼6单元501室</td>
+                  <td>023311</td>
+                  <td>185 0139 9654</td>
+                  <td class="medium-text-center"><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>删除</a></td>
+                </tr>
+                <tr>
+                  <td>张一山</td>
+                  <td>北京市东花市北里20号楼6单元501室</td>
+                  <td>023311</td>
+                  <td>185 0139 9654</td>
+                  <td class="medium-text-center"><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>删除</a></td>
+                </tr>
+                <tr>
+                  <td>张一山</td>
+                  <td>北京市东花市北里20号楼6单元501室</td>
+                  <td>023311</td>
+                  <td>185 0139 9654</td>
+                  <td class="medium-text-center"><a>编辑</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>删除</a></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../js/foundation.js"></script>
+    <script src="../js/app/orbit.js"></script>
+    <!-- <script src="./js/app/scrolltotop.js"></script> -->
+    <script src="../js/app/constrain.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+</body>
+
+</html>

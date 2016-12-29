@@ -95,6 +95,20 @@ hr {
     line-height: 14px;
 }
 
+.portrait-content input {
+    border-color: #E6E6E6;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.portrait-content input:hover,
+.portrait-content input:visited,
+.portrait-content input:focus {
+    border-color: #E6E6E6;
+    box-shadow: none;
+}
+
+
 .portrait-tabs img {
     width: 42px;
     margin-right: 10px;
@@ -102,6 +116,10 @@ hr {
 
 .portrait-content span {
     color: #FC3B26;
+}
+
+.portrait-content .medium-text-center {
+    line-height: 39px;
 }
 
 .portrait-sec .por-type {
@@ -139,6 +157,23 @@ hr {
     line-height: 14px;
 }
 
+.phone-verify>div input.get-code {
+    text-align: center;
+}
+
+.get-code:focus,
+.get-code:hover,
+.get-code:visited {
+    border-left: none;
+}
+
+.in-code:focus,
+.in-code:hover,
+.in-code:visited {
+    border-right: none;
+
+}
+
 .phone-verify>div:nth-of-type(1) input {
     border-right: none;
 }
@@ -146,8 +181,9 @@ hr {
 .portrait-content .sex {
     font-family: PingFangSC-Regular;
     font-size: 14px;
-    color: #999999;
+    color: #00AAFF;
     line-height: 14px;
+
 }
 
 .content-bar {
@@ -220,7 +256,12 @@ hr {
 
 .fire {
     display: inline-block;
-    vertical-align: sub;
+    vertical-align: middle;
+}
+
+.watch {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .details-right {
@@ -237,8 +278,14 @@ hr {
     line-height: 12px;
 }
 
+@media screen and (min-width: 64em){
+    .details-right p:nth-of-type(2) {
+        margin: 12px 0 32px 0; 
+    }    
+}
+
 .time {
-    font-family: PingFangSC-Regular;
+    /*font-family: PingFangSC-Regular;*/
     font-size: 12px;
     color: #FC3B26;
     line-height: 12px;
@@ -284,6 +331,10 @@ hr {
     margin: 20px 0;
 }
 
+.introduce-right {
+    padding: 1rem;
+}
+
 .introduce-right p:nth-of-type(1) {
     font-family: PingFangSC-Regular;
     font-size: 14px;
@@ -298,6 +349,12 @@ hr {
     line-height: 12px;
 }
 
+@media screen and (min-width: 64em){
+    .introduce-right p:nth-of-type(2) {
+        margin: 24px 0 32px 0; 
+    }    
+}
+
 .introduce-right span {
     font-family: PingFangSC-Regular;
     font-size: 12px;
@@ -310,8 +367,9 @@ hr {
     margin: 30px 0;
 }
 
+
 .introduce-shoucang p:nth-of-type(1) {
-    font-family: PingFangSC-Regular;
+    /*font-family: PingFangSC-Regular;*/
     font-size: 14px;
     color: #000000;
     line-height: 14px;
@@ -338,7 +396,11 @@ hr {
     font-size: 14px;
     color: #999999;
     letter-spacing: 0;
-    /*line-height: 34px;*/
+    line-height: 34px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
 }
 
 .shoucang a {
@@ -388,6 +450,14 @@ hr {
     font-size: 14px;
     color: #666666;
     line-height: 14px;
+}
+
+.text-style .medium-text-center {
+    line-height: 39px;
+}
+
+.text-style input {
+    font-size: 14px;
 }
 
 .portrait-ul2 li {
@@ -493,4 +563,22 @@ hr {
 
 .g-grid {
     max-width: 1172px;
+}
+
+.view-btn {
+    margin-top: 1rem;
+    width: 80px;
+    height: 32px;
+    background: #262626;
+    color: #fff;
+    font-size: 12px;
+}
+
+.write-btn {
+    margin-top: 1rem;
+    width: 80px;
+    height: 32px;
+    background: #FC3B26;;
+    color: #fff;
+    font-size: 12px;
 }
